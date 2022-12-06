@@ -1,0 +1,57 @@
+{
+  "name": "design-system-boilerplate",
+  "version": "1.0.0",
+  "description": "A seed project to kick off a Design System project on top of Stencil, Figma Tokens and Storybook.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/design-system/design-system.esm.js",
+  "dependencies": {
+    "@stencil/core": "^2.13.0",
+    "emotion": "^11.0.0",
+    "style-dictionary": "^3.7.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@storybook/addon-actions": "^7.0.0-alpha.58",
+    "@storybook/addon-essentials": "^7.0.0-alpha.58",
+    "@storybook/addon-interactions": "^7.0.0-alpha.58",
+    "@storybook/addon-links": "^7.0.0-alpha.58",
+    "@storybook/addons": "^7.0.0-alpha.58",
+    "@storybook/html": "^7.0.0-alpha.58",
+    "@storybook/html-webpack5": "^7.0.0-alpha.58",
+    "@storybook/testing-library": "^0.0.14-next.0",
+    "@storybook/theming": "^7.0.0-alpha.58",
+    "@types/jest": "^27.0.3",
+    "babel-loader": "^8.3.0",
+    "concurrently": "^7.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.4.5",
+    "jest-cli": "^27.4.5",
+    "npm-run-all": "^4.1.5",
+    "puppeteer": "^10.0.0",
+    "storybook": "^7.0.0-alpha.58"
+  },
+  "scripts": {
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "start:storybook": "storybook dev",
+    "dev": "stencil build --docs",
+    "postdev": "concurrently \"stencil build --watch\" \"storybook dev\"",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate",
+    "transform-tokens": "node ./src/design-tokens/config/transform-tokens.js",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deeleman/design-system-boilerplate.git"
+  },
+  "author": "Pablo Deeleman",
+  "license": "MIT"
+}
