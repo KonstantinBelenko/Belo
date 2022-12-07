@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 07 Dec 2022 16:08:26 GMT
+ * Generated on Wed, 07 Dec 2022 16:38:34 GMT
  */
 
 :root {
@@ -8,6 +8,7 @@
   --belo-color-text-color-text-weak: #717171;
   --belo-color-text-color-text-success: #008a05;
   --belo-color-text-color-text-error: #c13515;
+  --belo-color-text-color-text-highlight: #ff385c;
   --belo-color-text-inverse-color-text-inverse: #ffffff;
   --belo-color-background-color-background-gray-25: #f7f7f7;
   --belo-color-background-color-background-gray-50: #ebebeb;
@@ -22,6 +23,9 @@
   --belo-color-background-error-color-background-error: #c13515;
   --belo-color-background-error-color-background-error-highlight: #fef8f6;
   --belo-color-background-destructive-color-background-destructive-unlisted: #c13515;
+  --belo-color-border-color-border-gray-100: #dddddd;
+  --belo-color-border-color-border-gray-400: #222222;
+  --belo-color-border-color-border-gray-200: #b0b0b0;
   --belo-font-family-font-family-text: [object Object];
   --belo-font-weight-font-weight-normal: [object Object];
   --belo-font-weight-font-weight-bold: [object Object];
