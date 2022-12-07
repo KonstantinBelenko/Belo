@@ -1,0 +1,10 @@
+@import "../../design-tokens/css/_variables.css";
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+:host {
+  display: block;
+  font-family: var(--belo-typography-family-font-family-text-font-family), 'sans-serif';
+  font-size: calc(var(--belo-typography-paragraph-p-font-size) * 1px);
+  font-weight: var(--belo-typography-paragraph-p-font-weight);
+  line-height: calc(var(--belo-typography-paragraph-p-line-height) * 1px);
+}

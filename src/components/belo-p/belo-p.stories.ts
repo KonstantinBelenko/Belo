@@ -5,23 +5,17 @@
 
  export default {
   // this creates a ‘Components’ folder and a 'Button' subfolder in Storybook's side menu
-  title: 'Components/Header',
+  title: 'Components/Paragraph',
   argTypes: {
     text: {
-      description: 'Travel and belong anywhere',
-      defaultValue: 'Travel and belong anywhere',
+      description: 'This is a text place holder',
+      defaultValue: 'Airbnb began in 2008 when two designers who had space to share hosted three travelers looking for a place to stay. Let’s create a world where you can travel and belong anywhere.0123456789',
     },
-
-    size: {
-      options: ['1', '2', '3', '4', '5', '6'],
-      control: { type: 'radio' },
-      description: 'The Heading size'
-    },
-
+    
     align: {
       options: ['left', 'center', 'right'],
-      control: {type : 'radio'},
-      description: 'text alignment'
+      control: { type: 'radio' },
+      description: 'text alignment direction'
     }
   }
 };
@@ -31,7 +25,8 @@
  * can later on customize with different values for its attribute properties and events
  */
 const Template = (args) => `
-  <belo-header size="${args.size}" align="${args.align}">Travel and belong anywhere</belo-header>
+  <belo-p align="${args.align}">Airbnb began in 2008 when two designers who had space to share hosted three travelers looking for a place to stay. Let’s create a world where you can travel and belong anywhere.0123456789
+  </belo-p>
 `;
 
 /**
@@ -41,8 +36,8 @@ const Template = (args) => `
  * IMPORTANT: Remember to export each template binding!
  * Learn more about how to set up controls at https://storybook.js.org/docs/web-components/essentials/controls
  */
-export const header = Template.bind({});
-header.args = {
-  text: 'Travel and belong anywhere',
-  size: '1',
+export const Paragraph = Template.bind({});
+Paragraph.args = {
+  text: 'Airbnb began in 2008 when two designers who had space to share hosted three travelers looking for a place to stay. Let’s create a world where you can travel and belong anywhere.0123456789',
+  //align="center",
 };
