@@ -1,0 +1,68 @@
+@import "../../design-tokens/css/_variables.css";
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+:host {
+  display: block;
+  font-family: var(--belo-typography-family-font-family-text-font-family), 'sans-serif';
+
+}
+
+
+
+h1 {
+  font-size: calc(var( --belo-typography-heading-h1-font-size) * 1px);
+  font-weight: var(--belo-typography-heading-h1-font-weight);
+  line-height: calc(var(--belo-typography-heading-h1-line-height) * 1px);
+  
+}
+
+h2 {
+  font-size: calc(var( --belo-typography-heading-h2-font-size) * 1px);
+  font-weight: var(--belo-typography-heading-h2-font-weight);
+  line-height: calc(var(--belo-typography-heading-h2-line-height) * 1px);
+
+
+} 
+
+ h3 {
+  font-size: calc(var( --belo-typography-heading-h3-font-size) * 1px);
+  font-weight: var(--belo-typography-heading-h3-font-weight);
+  line-height: calc(var(--belo-typography-heading-h3-line-height) * 1px);
+
+}
+
+h4 {
+  font-size: calc(var( --belo-typography-heading-h4-font-size) * 1px);
+  font-weight: var(--belo-typography-heading-h4-font-weight);
+  line-height: calc(var(--belo-typography-heading-h4-line-height) * 1px);
+
+}
+
+h5 {
+  font-size: calc(var( --belo-typography-heading-h5-font-size) * 1px);
+  font-weight: var(--belo-typography-heading-h5-font-weight);
+  line-height: calc(var(--belo-typography-heading-h5-line-height) * 1px);
+
+}
+
+h6 {
+  font-size: calc(var( --belo-typography-heading-h6-font-size) * 1px);
+  font-weight: var(--belo-typography-heading-h6-font-weight);
+  line-height: calc(var(--belo-typography-heading-h6-line-height) * 1px);
+
+}
+
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+
