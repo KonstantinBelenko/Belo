@@ -1,12 +1,13 @@
 /**
  * Do not edit directly
- * Generated on Wed, 07 Dec 2022 16:08:26 GMT
+ * Generated on Wed, 07 Dec 2022 16:38:34 GMT
  */
 
 export const ColorTextColorText = "#222222";
 export const ColorTextColorTextWeak = "#717171";
 export const ColorTextColorTextSuccess = "#008a05";
 export const ColorTextColorTextError = "#c13515";
+export const ColorTextColorTextHighlight = "#ff385c";
 export const ColorTextInverseColorTextInverse = "#ffffff";
 export const ColorBackgroundColorBackgroundGray25 = "#f7f7f7";
 export const ColorBackgroundColorBackgroundGray50 = "#ebebeb";
@@ -21,6 +22,9 @@ export const ColorBackgroundWarningColorBackgroundWarning = "#e07912";
 export const ColorBackgroundErrorColorBackgroundError = "#c13515";
 export const ColorBackgroundErrorColorBackgroundErrorHighlight = "#fef8f6";
 export const ColorBackgroundDestructiveColorBackgroundDestructiveUnlisted = "#c13515";
+export const ColorBorderColorBorderGray100 = "#dddddd";
+export const ColorBorderColorBorderGray400 = "#222222";
+export const ColorBorderColorBorderGray200 = "#b0b0b0";
 export const FontFamilyFontFamilyText = {"fontSize":16,"textDecoration":"none","fontFamily":"Circular Std","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":20,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontWeightFontWeightNormal = {"fontSize":16,"textDecoration":"none","fontFamily":"Circular Std","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":20,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontWeightFontWeightBold = {"fontSize":16,"textDecoration":"none","fontFamily":"Circular Std","fontWeight":700,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":20,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
