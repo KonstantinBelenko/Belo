@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 07 Dec 2022 16:43:51 GMT
+ * Generated on Thu, 08 Dec 2022 00:43:54 GMT
  */
 
 :root {
@@ -16,6 +16,10 @@
   --belo-color-background-color-background-gray-200: #b0b0b0;
   --belo-color-background-color-background-gray-300: #717171;
   --belo-color-background-color-background-gray-400: #222222;
+  --belo-color-background-color-icon-background: #222222;
+  --belo-color-background-color-background-secondary: #d70466;
+  --belo-color-background-color-background-secondary-violet: #410aa8;
+  --belo-color-background-color-background-secondary-magenta: #aa018b;
   --belo-color-background-brand-color-background-brand: #ff385c;
   --belo-color-background-brand-color-background-brand-white: #ffffff;
   --belo-color-background-success-color-background-success: #008a05;
@@ -26,6 +30,10 @@
   --belo-color-border-color-border-gray-100: #dddddd;
   --belo-color-border-color-border-gray-400: #222222;
   --belo-color-border-color-border-gray-200: #b0b0b0;
+  --belo-color-border-color-border-error: #c13515;
+  --belo-color-shadow-shadow-focus: #222222;
+  --belo-gradient-background-color-background-gradient: [object Object];
+  --belo-gradient-background-color-background-gradient-periwinkle: [object Object];
   --belo-font-family-font-family-text: [object Object];
   --belo-font-weight-font-weight-normal: [object Object];
   --belo-font-weight-font-weight-bold: [object Object];
@@ -45,6 +53,7 @@
   --belo-font-label-large: [object Object];
   --belo-font-label-medium: [object Object];
   --belo-font-label-small: [object Object];
+  --belo-effect-shadow-shadow-default: [object Object];
   --belo-typography-family-font-family-text-font-size: 16;
   --belo-typography-family-font-family-text-text-decoration: none;
   --belo-typography-family-font-family-text-font-family: Circular Std;
