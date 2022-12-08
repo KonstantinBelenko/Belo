@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 07 Dec 2022 16:38:34 GMT
+ * Generated on Wed, 07 Dec 2022 16:43:51 GMT
  */
 
 export const ColorTextColorText = "#222222";
