@@ -6,6 +6,16 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface BeloCaption {
+        "align": 'left' | 'right' | 'center';
+    }
+    interface BeloHeader {
+        "align": 'left' | 'right' | 'center';
+        "size": any;
+    }
+    interface BeloP {
+        "align": 'left' | 'right' | 'center';
+    }
     interface HsButton {
         "size": string;
         "variant": string;
@@ -16,6 +26,24 @@ export interface HsButtonCustomEvent<T> extends CustomEvent<T> {
     target: HTMLHsButtonElement;
 }
 declare global {
+    interface HTMLBeloCaptionElement extends Components.BeloCaption, HTMLStencilElement {
+    }
+    var HTMLBeloCaptionElement: {
+        prototype: HTMLBeloCaptionElement;
+        new (): HTMLBeloCaptionElement;
+    };
+    interface HTMLBeloHeaderElement extends Components.BeloHeader, HTMLStencilElement {
+    }
+    var HTMLBeloHeaderElement: {
+        prototype: HTMLBeloHeaderElement;
+        new (): HTMLBeloHeaderElement;
+    };
+    interface HTMLBeloPElement extends Components.BeloP, HTMLStencilElement {
+    }
+    var HTMLBeloPElement: {
+        prototype: HTMLBeloPElement;
+        new (): HTMLBeloPElement;
+    };
     interface HTMLHsButtonElement extends Components.HsButton, HTMLStencilElement {
     }
     var HTMLHsButtonElement: {
@@ -23,16 +51,32 @@ declare global {
         new (): HTMLHsButtonElement;
     };
     interface HTMLElementTagNameMap {
+        "belo-caption": HTMLBeloCaptionElement;
+        "belo-header": HTMLBeloHeaderElement;
+        "belo-p": HTMLBeloPElement;
         "hs-button": HTMLHsButtonElement;
     }
 }
 declare namespace LocalJSX {
+    interface BeloCaption {
+        "align"?: 'left' | 'right' | 'center';
+    }
+    interface BeloHeader {
+        "align"?: 'left' | 'right' | 'center';
+        "size"?: any;
+    }
+    interface BeloP {
+        "align"?: 'left' | 'right' | 'center';
+    }
     interface HsButton {
         "onClicked"?: (event: HsButtonCustomEvent<any>) => void;
         "size"?: string;
         "variant"?: string;
     }
     interface IntrinsicElements {
+        "belo-caption": BeloCaption;
+        "belo-header": BeloHeader;
+        "belo-p": BeloP;
         "hs-button": HsButton;
     }
 }
@@ -40,6 +84,9 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "belo-caption": LocalJSX.BeloCaption & JSXBase.HTMLAttributes<HTMLBeloCaptionElement>;
+            "belo-header": LocalJSX.BeloHeader & JSXBase.HTMLAttributes<HTMLBeloHeaderElement>;
+            "belo-p": LocalJSX.BeloP & JSXBase.HTMLAttributes<HTMLBeloPElement>;
             "hs-button": LocalJSX.HsButton & JSXBase.HTMLAttributes<HTMLHsButtonElement>;
         }
     }
