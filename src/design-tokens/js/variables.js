@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 07 Dec 2022 16:43:51 GMT
+ * Generated on Thu, 08 Dec 2022 00:43:54 GMT
  */
 
 export const ColorTextColorText = "#222222";
@@ -15,6 +15,10 @@ export const ColorBackgroundColorBackgroundGray100 = "#dddddd";
 export const ColorBackgroundColorBackgroundGray200 = "#b0b0b0";
 export const ColorBackgroundColorBackgroundGray300 = "#717171";
 export const ColorBackgroundColorBackgroundGray400 = "#222222";
+export const ColorBackgroundColorIconBackground = "#222222";
+export const ColorBackgroundColorBackgroundSecondary = "#d70466";
+export const ColorBackgroundColorBackgroundSecondaryViolet = "#410aa8";
+export const ColorBackgroundColorBackgroundSecondaryMagenta = "#aa018b";
 export const ColorBackgroundBrandColorBackgroundBrand = "#ff385c";
 export const ColorBackgroundBrandColorBackgroundBrandWhite = "#ffffff";
 export const ColorBackgroundSuccessColorBackgroundSuccess = "#008a05";
@@ -25,6 +29,10 @@ export const ColorBackgroundDestructiveColorBackgroundDestructiveUnlisted = "#c1
 export const ColorBorderColorBorderGray100 = "#dddddd";
 export const ColorBorderColorBorderGray400 = "#222222";
 export const ColorBorderColorBorderGray200 = "#b0b0b0";
+export const ColorBorderColorBorderError = "#c13515";
+export const ColorShadowShadowFocus = "#222222";
+export const GradientBackgroundColorBackgroundGradient = {"gradientType":"linear","rotation":125.90972327896873,"stops":[{"position":0,"color":"#ff385cff"},{"position":1,"color":"#d70466ff"}]};
+export const GradientBackgroundColorBackgroundGradientPeriwinkle = {"gradientType":"linear","rotation":125.90972327896873,"stops":[{"position":0,"color":"#aa018bff"},{"position":1,"color":"#410aa8ff"}]};
 export const FontFamilyFontFamilyText = {"fontSize":16,"textDecoration":"none","fontFamily":"Circular Std","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":20,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontWeightFontWeightNormal = {"fontSize":16,"textDecoration":"none","fontFamily":"Circular Std","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":20,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontWeightFontWeightBold = {"fontSize":16,"textDecoration":"none","fontFamily":"Circular Std","fontWeight":700,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":20,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
@@ -44,6 +52,7 @@ export const FontCaptionCaption = {"fontSize":14,"textDecoration":"none","fontFa
 export const FontLabelLarge = {"fontSize":14,"textDecoration":"none","fontFamily":"Circular Std","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":18,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontLabelMedium = {"fontSize":12,"textDecoration":"none","fontFamily":"Circular Std","fontWeight":700,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":16,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontLabelSmall = {"fontSize":10,"textDecoration":"none","fontFamily":"Circular Std","fontWeight":700,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":14,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"uppercase"};
+export const EffectShadowShadowDefault = {"shadowType":"dropShadow","radius":15,"color":"#0000001a","offsetX":0,"offsetY":1,"spread":0};
 export const TypographyFamilyFontFamilyTextFontSize = 16;
 export const TypographyFamilyFontFamilyTextTextDecoration = "none";
 export const TypographyFamilyFontFamilyTextFontFamily = "Circular Std";
