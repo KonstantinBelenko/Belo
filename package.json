@@ -14,7 +14,10 @@
     "@stencil/core": "^2.13.0",
     "emotion": "^11.0.0",
     "expo": "^47.0.8",
-    "style-dictionary": "^3.7.1"
+    "figma-tokens-convert": "^1.0.0",
+    "style-dictionary": "^3.7.1",
+    "styled-components": "^5.3.6",
+    "token-transformer": "^0.0.28"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
@@ -47,6 +50,7 @@
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate",
     "transform-tokens": "node ./src/design-tokens/config/transform-tokens.js",
+    "convert": "node ./node_modules/figma-tokens-convert/convert.js ./src/design-tokens/json/design-tokens.tokens.json ./src/design-tokens/css/_variables.css belo",
     "build-storybook": "storybook build",
     "build-static-webapp": "expo build:web"
   },
