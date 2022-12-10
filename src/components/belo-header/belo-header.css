@@ -51,11 +51,6 @@ h5 {
 
 }
 
-h6 {
-  font-size: calc(var( --belo-font-heading-h6-font-size) * 1px);
-  font-weight: var(--belo-font-heading-h6-font-weight);
-  line-height: calc(var(--belo-font-heading-h6-line-height) * 1px);
-}
 
 
 .align-right {

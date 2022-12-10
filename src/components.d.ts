@@ -15,6 +15,14 @@ export namespace Components {
         "align": 'left' | 'right' | 'center';
         "size": any;
     }
+    interface BeloInput {
+        "disabled": any;
+        "hint": 'true' | 'false';
+        "hinttext": any;
+        "label": any;
+        "placeholder": any;
+        "required": any;
+    }
     interface BeloP {
         "align": 'left' | 'right' | 'center';
     }
@@ -38,6 +46,12 @@ declare global {
         prototype: HTMLBeloHeaderElement;
         new (): HTMLBeloHeaderElement;
     };
+    interface HTMLBeloInputElement extends Components.BeloInput, HTMLStencilElement {
+    }
+    var HTMLBeloInputElement: {
+        prototype: HTMLBeloInputElement;
+        new (): HTMLBeloInputElement;
+    };
     interface HTMLBeloPElement extends Components.BeloP, HTMLStencilElement {
     }
     var HTMLBeloPElement: {
@@ -48,6 +62,7 @@ declare global {
         "belo-button": HTMLBeloButtonElement;
         "belo-caption": HTMLBeloCaptionElement;
         "belo-header": HTMLBeloHeaderElement;
+        "belo-input": HTMLBeloInputElement;
         "belo-p": HTMLBeloPElement;
     }
 }
@@ -61,6 +76,14 @@ declare namespace LocalJSX {
         "align"?: 'left' | 'right' | 'center';
         "size"?: any;
     }
+    interface BeloInput {
+        "disabled"?: any;
+        "hint"?: 'true' | 'false';
+        "hinttext"?: any;
+        "label"?: any;
+        "placeholder"?: any;
+        "required"?: any;
+    }
     interface BeloP {
         "align"?: 'left' | 'right' | 'center';
     }
@@ -68,6 +91,7 @@ declare namespace LocalJSX {
         "belo-button": BeloButton;
         "belo-caption": BeloCaption;
         "belo-header": BeloHeader;
+        "belo-input": BeloInput;
         "belo-p": BeloP;
     }
 }
@@ -78,6 +102,7 @@ declare module "@stencil/core" {
             "belo-button": LocalJSX.BeloButton & JSXBase.HTMLAttributes<HTMLBeloButtonElement>;
             "belo-caption": LocalJSX.BeloCaption & JSXBase.HTMLAttributes<HTMLBeloCaptionElement>;
             "belo-header": LocalJSX.BeloHeader & JSXBase.HTMLAttributes<HTMLBeloHeaderElement>;
+            "belo-input": LocalJSX.BeloInput & JSXBase.HTMLAttributes<HTMLBeloInputElement>;
             "belo-p": LocalJSX.BeloP & JSXBase.HTMLAttributes<HTMLBeloPElement>;
         }
     }
