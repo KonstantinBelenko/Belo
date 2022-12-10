@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri Dec 09 2022 21:03:11 GMT+0000 (Coordinated Universal Time)
+ * Generated on Sat Dec 10 2022 19:50:02 GMT+0000 (Coordinated Universal Time)
  */
  
 :root {
@@ -16,7 +16,6 @@
 	--belo-color-background-color-background-gray-100: #ddddddff;
 	--belo-color-background-color-background-gray-200: #b0b0b0ff;
 	--belo-color-background-color-background-gray-300: #717171ff;
-	--belo-color-background-color-background-gray-400: #222222ff;
 	--belo-color-background-color-icon-background: #222222ff;
 	--belo-color-background-color-background-secondary: #d70466ff;
 	--belo-color-background-color-background-secondary-violet: #410aa8ff;
@@ -24,6 +23,7 @@
 	--belo-color-background-color-background-brand-black: #000000ff;
 	--belo-color-background-brand-color-background-brand: #ff385cff;
 	--belo-color-background-brand-color-background-brand-white: #ffffffff;
+	--belo-color-background-background-background: undefined;
 	--belo-color-background-success-color-background-success: #008a05ff;
 	--belo-color-background-warning-color-background-warning: #e07912ff;
 	--belo-color-background-error-color-background-error: #c13515ff;
