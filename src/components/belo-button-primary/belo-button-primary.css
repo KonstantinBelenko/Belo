@@ -1,0 +1,102 @@
+@import "../../design-tokens/css/_variables.css";
+@import url('https://fonts.cdnfonts.com/css/circular-std?styles=17909,17910,17911,17912,17907,17908,17905,17906');
+
+.btn-primary {
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+  color: var(--belo-color-text-inverse-color-text-inverse);
+
+  font-family: var(--belo-font-weight-font-weight-bold-font-family), 'sans-serif';
+  font-size: calc(var(--belo-font-weight-font-weight-bold-font-size) * 1px);
+  font-weight: var(--belo-font-weight-font-weight-bold-font-weight);
+  line-height: calc(var(--belo-font-weight-font-weight-bold-line-height) * 1px);
+
+  /* REPLACE PADDNIG WITH TOKENS */
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  
+  /* REPLACE RADIUS */
+  border-radius: 6px;
+}
+
+.btn-primary:hover:enabled {
+  background: var(--belo-gradient-background-color-background-gradient-radial);
+}
+
+.btn-primary:active:enabled {
+  background: var(--belo-color-background-brand-color-background-brand);
+}
+
+.btn-primary:enabled {
+  background: var(--belo-gradient-background-color-background-gradient);
+}
+
+.btn-primary:disabled {
+  cursor: not-allowed;
+  background-color: var(--belo-color-background-color-background-gray-100);
+}
+
+.btn-primary:focus {
+  outline-color: var(--belo-color-background-color-background-gray-400);
+  outline-width: 3px;
+  outline-style: outset;
+
+  border-style: solid !important;
+  border-color: var(--belo-color-shadow-shadow-focus-inverse);
+  border-width: 3px;
+}
+
+
+.pill-primary {
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  color: var(--belo-color-text-inverse-color-text-inverse);
+
+  font-family: var(--belo-font-weight-font-weight-bold-font-family), 'sans-serif';
+  font-size: calc(var(--belo-font-weight-font-weight-bold-font-size) * 1px);
+  font-weight: var(--belo-font-weight-font-weight-bold-font-weight);
+  line-height: calc(var(--belo-font-weight-font-weight-bold-line-height) * 1px);
+
+  /* REPLACE PADDNIG WITH TOKENS */
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  background-color: var(--belo-color-background-color-background-gray-400);
+  
+  /* REPLACE RADIUS */
+  border-radius: 26px;
+}
+
+.pill-primary:hover:enabled {
+  background-color: var(--belo-color-background-color-background-brand-black);
+}
+
+.pill-primary:active:enabled {
+  background-color: var(--belo-color-background-color-background-brand-black);
+}
+
+.pill-primary:disabled {
+  cursor: not-allowed;
+  background-color: var(--belo-color-background-color-background-gray-100);
+}
+
+.pill-primary:focus {
+  outline-color: var(--belo-color-background-color-background-gray-400);
+  outline-width: 3px;
+  outline-style: outset;
+
+  border-style: solid !important;
+  border-color: var(--belo-color-shadow-shadow-focus-inverse);
+  border-width: 3px;
+}
