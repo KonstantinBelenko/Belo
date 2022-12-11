@@ -11,6 +11,14 @@ export namespace Components {
     interface BeloCaption {
         "align": 'left' | 'right' | 'center';
     }
+    interface BeloCard {
+        "details": any;
+        "image": any;
+        "location": any;
+        "price_per_night": any;
+        "score": any;
+        "total_price": any;
+    }
     interface BeloHeader {
         "align": 'left' | 'right' | 'center';
         "size": any;
@@ -45,6 +53,12 @@ declare global {
         prototype: HTMLBeloCaptionElement;
         new (): HTMLBeloCaptionElement;
     };
+    interface HTMLBeloCardElement extends Components.BeloCard, HTMLStencilElement {
+    }
+    var HTMLBeloCardElement: {
+        prototype: HTMLBeloCardElement;
+        new (): HTMLBeloCardElement;
+    };
     interface HTMLBeloHeaderElement extends Components.BeloHeader, HTMLStencilElement {
     }
     var HTMLBeloHeaderElement: {
@@ -72,6 +86,7 @@ declare global {
     interface HTMLElementTagNameMap {
         "belo-button": HTMLBeloButtonElement;
         "belo-caption": HTMLBeloCaptionElement;
+        "belo-card": HTMLBeloCardElement;
         "belo-header": HTMLBeloHeaderElement;
         "belo-input": HTMLBeloInputElement;
         "belo-p": HTMLBeloPElement;
@@ -83,6 +98,14 @@ declare namespace LocalJSX {
     }
     interface BeloCaption {
         "align"?: 'left' | 'right' | 'center';
+    }
+    interface BeloCard {
+        "details"?: any;
+        "image"?: any;
+        "location"?: any;
+        "price_per_night"?: any;
+        "score"?: any;
+        "total_price"?: any;
     }
     interface BeloHeader {
         "align"?: 'left' | 'right' | 'center';
@@ -107,6 +130,7 @@ declare namespace LocalJSX {
     interface IntrinsicElements {
         "belo-button": BeloButton;
         "belo-caption": BeloCaption;
+        "belo-card": BeloCard;
         "belo-header": BeloHeader;
         "belo-input": BeloInput;
         "belo-p": BeloP;
@@ -119,6 +143,7 @@ declare module "@stencil/core" {
         interface IntrinsicElements {
             "belo-button": LocalJSX.BeloButton & JSXBase.HTMLAttributes<HTMLBeloButtonElement>;
             "belo-caption": LocalJSX.BeloCaption & JSXBase.HTMLAttributes<HTMLBeloCaptionElement>;
+            "belo-card": LocalJSX.BeloCard & JSXBase.HTMLAttributes<HTMLBeloCardElement>;
             "belo-header": LocalJSX.BeloHeader & JSXBase.HTMLAttributes<HTMLBeloHeaderElement>;
             "belo-input": LocalJSX.BeloInput & JSXBase.HTMLAttributes<HTMLBeloInputElement>;
             "belo-p": LocalJSX.BeloP & JSXBase.HTMLAttributes<HTMLBeloPElement>;
