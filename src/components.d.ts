@@ -26,6 +26,11 @@ export namespace Components {
     interface BeloP {
         "align": 'left' | 'right' | 'center';
     }
+    interface BeloTextArea {
+        "disabled": any;
+        "maxlength": any;
+        "placeholder": any;
+    }
 }
 declare global {
     interface HTMLBeloButtonElement extends Components.BeloButton, HTMLStencilElement {
@@ -58,12 +63,19 @@ declare global {
         prototype: HTMLBeloPElement;
         new (): HTMLBeloPElement;
     };
+    interface HTMLBeloTextAreaElement extends Components.BeloTextArea, HTMLStencilElement {
+    }
+    var HTMLBeloTextAreaElement: {
+        prototype: HTMLBeloTextAreaElement;
+        new (): HTMLBeloTextAreaElement;
+    };
     interface HTMLElementTagNameMap {
         "belo-button": HTMLBeloButtonElement;
         "belo-caption": HTMLBeloCaptionElement;
         "belo-header": HTMLBeloHeaderElement;
         "belo-input": HTMLBeloInputElement;
         "belo-p": HTMLBeloPElement;
+        "belo-text-area": HTMLBeloTextAreaElement;
     }
 }
 declare namespace LocalJSX {
@@ -87,12 +99,18 @@ declare namespace LocalJSX {
     interface BeloP {
         "align"?: 'left' | 'right' | 'center';
     }
+    interface BeloTextArea {
+        "disabled"?: any;
+        "maxlength"?: any;
+        "placeholder"?: any;
+    }
     interface IntrinsicElements {
         "belo-button": BeloButton;
         "belo-caption": BeloCaption;
         "belo-header": BeloHeader;
         "belo-input": BeloInput;
         "belo-p": BeloP;
+        "belo-text-area": BeloTextArea;
     }
 }
 export { LocalJSX as JSX };
@@ -104,6 +122,7 @@ declare module "@stencil/core" {
             "belo-header": LocalJSX.BeloHeader & JSXBase.HTMLAttributes<HTMLBeloHeaderElement>;
             "belo-input": LocalJSX.BeloInput & JSXBase.HTMLAttributes<HTMLBeloInputElement>;
             "belo-p": LocalJSX.BeloP & JSXBase.HTMLAttributes<HTMLBeloPElement>;
+            "belo-text-area": LocalJSX.BeloTextArea & JSXBase.HTMLAttributes<HTMLBeloTextAreaElement>;
         }
     }
 }
