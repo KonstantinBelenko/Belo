@@ -5,13 +5,11 @@
   box-sizing: border-box;
 }
 
-/* .form-wrapper {
-  margin: 10px;
-} */
+
 .full-input {
   display: flex;
   flex-direction: column-reverse;
-  border: 2px solid var(--belo-color-border-color-border-gray-200);
+  border: 2px solid var(--belo-color-border-border-color-border-gray-200);
   width: 400px;
   height: 56px;
   border-radius: 6px;
@@ -21,18 +19,21 @@ input {
   outline: none;
   border: none;
   font-size: calc(var(--belo-font-family-font-family-text-font-size) * 1px);
+  font-family: var(--belo-font-family-font-family-text-font-family);
   padding-left: 16px;
   padding-bottom: 18px;
 }
 label {
   display: block;
   font-size: calc(var(--belo-font-size-font-size-20-font-size) * 1px);
+  font-family: var(--belo-font-family-font-family-text-font-family);
   padding-left: 16px;
   color: transparent;
 }
 
 .hint-true {
   font-size: calc(var(--belo-font-size-font-size-20-font-size) * 1px);
+  font-family: var(--belo-font-family-font-family-text-font-family);
   color: var(--belo-color-text-color-text-weak);
   padding-left: 4px;
   margin-top: 4px;
@@ -43,6 +44,7 @@ label {
 }
 
 input:focus +label {
+  font-family: var(--belo-font-family-font-family-text-font-family);
   color: var(--belo-color-text-color-text-weak);
 
 }
@@ -50,23 +52,22 @@ input:focus +label {
 .disabled {
   background-color: var(--belo-color-background-color-background-gray-25);
   pointer-events: none;
+
 }
 
 .disabled-text {
+  font-family: var(--belo-font-family-font-family-text-font-family);
   color: var(--belo-color-text-color-text-weaker);
 }
 
 .disabled-text::placeholder{
+  font-family: var(--belo-font-family-font-family-text-font-family);
   color: var(--belo-color-text-color-text-weaker);
 
 }
 
-.invalid {
-  border-color: var();
-}
-
-
 input:focus +label.required-text {
+  font-family: var(--belo-font-family-font-family-text-font-family);
   color: red;
 
 }

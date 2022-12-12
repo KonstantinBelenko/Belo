@@ -29,13 +29,13 @@ export default {
     },
 
     hint: {
-      options: ['true', 'false'],
+      options: ['true', 'none'],
       control: {type: 'radio'},
       description: 'toggels the hint option'
     },
 
     hinttext: {
-      description: 'text holder for the hint',
+      description: 'text holder for the hin, if the hint property is set to anythin else but true, it will not be displayed.',
       defaultValue: 'Hint',
     },
 
@@ -48,7 +48,7 @@ export default {
     required: {
       options: ['required', 'none'],
       control: {type: 'radio'},
-      description: 'defines a required state for the button, is an optional argument'
+      description: 'defines a required state for the input, is an optional argument'
     }
   }
 };
@@ -57,10 +57,9 @@ export default {
  * Now you can create a reusable template for your component that you 
  * can later on customize with different values for its attribute properties and events
  */
-const Template = (args) => `
-  <belo-input label="${args.label}" placeholder="${args.placeholder}"
-   hint="${args.hint}" hinttext="${args.hinttext}" disabled="${args.disabled} required="${args.required}"></belo-input>
-`;
+const Template = (args) => 
+`<belo-input disabled="${args.disabled}" label="${args.label}" placeholder="${args.placeholder}" hint="${args.hint}" hinttext="${args.hinttext}" required="${args.required}">`;
+
 
 /**
  * Now you can leverage the template above to generate multiple snapshots of your component
@@ -78,6 +77,29 @@ label: 'Label',
 placeholder: 'Text Placeholder',
 hint: 'true',
 hinttext: 'Hint',
-required: 'true'
+
+};
+
+export const InputRequired = Template.bind({});
+InputRequired.args = {
+  // Populate this object with key/value pairs, customizing the component atribute values or even its content. Eg:
+  // content: 'Demo text',
+label: 'Label',
+placeholder: 'Text Placeholder',
+hint: 'true',
+hinttext: 'Hint',
+required: 'required'
+
+};
+
+export const InputDisabled = Template.bind({});
+InputDisabled.args = {
+  // Populate this object with key/value pairs, customizing the component atribute values or even its content. Eg:
+  // content: 'Demo text',
+label: 'Label',
+placeholder: 'Text Placeholder',
+hint: 'true',
+hinttext: 'Hint',
+disabled: 'disabled'
 
 };

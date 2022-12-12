@@ -31,7 +31,7 @@ export namespace Components {
     }
     interface BeloInput {
         "disabled": any;
-        "hint": 'true' | 'false';
+        "hint": 'true';
         "hinttext": any;
         "label": any;
         "placeholder": any;
@@ -142,7 +142,7 @@ declare namespace LocalJSX {
     }
     interface BeloInput {
         "disabled"?: any;
-        "hint"?: 'true' | 'false';
+        "hint"?: 'true';
         "hinttext"?: any;
         "label"?: any;
         "placeholder"?: any;
