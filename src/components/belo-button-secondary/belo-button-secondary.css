@@ -1,0 +1,112 @@
+@import "../../design-tokens/css/_variables.css";
+@import url('https://fonts.cdnfonts.com/css/circular-std?styles=17909,17910,17911,17912,17907,17908,17905,17906');
+
+.btn-secondary {
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  color: var(--belo-color-text-inverse-color-text-inverse);
+
+  font-family: var(--belo-font-weight-font-weight-bold-font-family), 'sans-serif';
+  font-size: calc(var(--belo-font-weight-font-weight-bold-font-size) * 1px);
+  font-weight: var(--belo-font-weight-font-weight-bold-font-weight);
+  line-height: calc(var(--belo-font-weight-font-weight-bold-line-height) * 1px);
+
+  /* REPLACE PADDNIG WITH TOKENS */
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  
+  /* REPLACE RADIUS */
+  border-radius: 6px;
+}
+
+.btn-secondary:hover:enabled {
+  background: var(--belo-color-background-color-background-brand-black);
+}
+
+.btn-secondary:active:enabled {
+  background: var(--belo-color-background-color-background-brand-black);
+}
+
+.btn-secondary:enabled {
+  background: var(--belo-color-background-color-background-gray-400);
+}
+
+.btn-secondary:disabled {
+  cursor: not-allowed;
+  background-color: var(--belo-color-background-color-background-gray-100);
+}
+
+.btn-secondary:focus {
+  border: 3px;
+  border-color: var(--belo-color-shadow-shadow-focus-inverse);
+}
+
+.btn-secondary:focus {
+  outline-color: var(--belo-color-background-color-background-gray-400);
+  outline-width: 3px;
+  outline-style: outset;
+
+  border-style: solid !important;
+  border-color: var(--belo-color-shadow-shadow-focus-inverse);
+  border-width: 3px;
+}
+
+
+.pill-secondary {
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+  color: var(--belo-color-text-color-text);
+
+  box-sizing: border-box;
+
+  font-family: var(--belo-font-weight-font-weight-bold-font-family), 'sans-serif';
+  font-size: calc(var(--belo-font-weight-font-weight-bold-font-size) * 1px);
+  font-weight: var(--belo-font-weight-font-weight-bold-font-weight);
+  line-height: calc(var(--belo-font-weight-font-weight-bold-line-height) * 1px);
+
+  /* REPLACE PADDNIG WITH TOKENS */
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  /* REPLACE COLOR BECAUSE secondary-pill-button had no background in figma, so I used white */
+  background-color: var(--belo-color-text-inverse-color-text-inverse);
+  
+  /* REPLACE RADIUS */
+  border-radius: 26px;
+}
+
+.pill-secondary:hover:enabled {
+  background-color: var(--belo-color-background-color-background-gray-25);
+}
+
+.pill-secondary:active:enabled {
+  border-width: 1px;
+  border-color: var(--belo-color-border-color-border-gray-400);
+}
+
+.pill-secondary:enabled {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--belo-color-border-color-border-gray-200);
+}
+
+.pill-secondary:disabled {
+  cursor: not-allowed;
+  background-color: var(--belo-color-text-inverse-color-text-inverse);
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--belo-color-border-color-border-gray-200);
+  color: var(--belo-color-text-color-text-weaker);
+}
+
+.pill-secondary:focus {
+  border-style: solid !important;
+  border-color: var(--belo-color-shadow-shadow-focus);
+  border-width: 3px;
+}
