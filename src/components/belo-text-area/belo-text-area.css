@@ -1,0 +1,46 @@
+:host {
+  display: block;
+}
+
+textarea {
+  box-sizing: border-box;
+  resize: none;
+  width: 400px;
+  height: 119px;
+  border-color: var(--belo-color-border-color-border-gray-200);
+  border-radius: 6px;
+  padding-left: 16px;
+  padding-top: 18px;
+  font-size: calc(var(--belo-font-family-font-family-text-font-size) * 1px);
+  color: black;
+}
+
+textarea::placeholder{
+  font-size: calc(var(--belo-font-family-font-family-text-font-size) * 1px);
+  color: var(--belo-color-text-color-text-weak);
+}
+
+p {
+  box-sizing: border-box;
+  font-size: calc(var(--belo-font-size-font-size-20-font-size) * 1px);
+  font-weight: bold;
+  margin-top: 0px;
+  padding-left: 5px;
+}
+
+textarea:focus{
+  outline: none;
+  border-color: var(--belo-color-border-color-border-gray-400);
+  border-width: 2px;
+}
+
+.disabled {
+  background-color: var(--belo-color-background-color-background-gray-25);
+  pointer-events: none;
+
+}
+
+.disabled-text::placeholder{
+  color: var(--belo-color-text-color-text-weaker);
+
+}

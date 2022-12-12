@@ -15,7 +15,7 @@ export class BeloHeader {
   align: 'left' | 'right' | 'center'
 
   componentWillLoad() {
-    if (this.size < 1 || this.size > 6) {
+    if (this.size < 1 || this.size > 5) {
       throw new Error("TestHeader: the size must be between 1 and 6")
       
     }
