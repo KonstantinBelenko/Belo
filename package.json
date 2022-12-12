@@ -13,7 +13,7 @@
   "dependencies": {
     "@stencil/core": "^2.13.0",
     "emotion": "^11.0.0",
-    "expo": "^47.0.8",
+    "expo": "^44.0.6",
     "figma-tokens-convert": "^1.0.0",
     "style-dictionary": "^3.7.1",
     "styled-components": "^5.3.6",
