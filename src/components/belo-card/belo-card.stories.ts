@@ -11,12 +11,6 @@ export default {
   // Populate the `argTypes` property with knobs to customize the component.
   // Learn more about how to set up controls at https://storybook.js.org/docs/web-components/essentials/controls#annotation
   argTypes: {
-    // This will create an `args.variant` binding for your component 
-    variant: {
-      options: ['neutral', 'error'],        // Value presets
-      control: { type: 'select' },          // Knob type. It can be select, radio, etc
-      description: 'The button variant',    // The description text displayed in the knobs table
-    },
     image: {
       description: 'image url'
     },

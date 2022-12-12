@@ -44,7 +44,7 @@ export namespace Components {
         "align": 'left' | 'right' | 'center';
     }
     interface BeloTextArea {
-        "disabled": any;
+        "disabled": boolean;
         "maxlength": any;
         "placeholder": any;
     }
@@ -155,7 +155,7 @@ declare namespace LocalJSX {
         "align"?: 'left' | 'right' | 'center';
     }
     interface BeloTextArea {
-        "disabled"?: any;
+        "disabled"?: boolean;
         "maxlength"?: any;
         "placeholder"?: any;
     }

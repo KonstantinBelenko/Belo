@@ -16,7 +16,7 @@ export class BeloTextArea{
   placeholder;
 
   @Prop({reflect:true})
-  disabled;
+  disabled: boolean;
 
   onTextareaInput(event: any) {
     // Update the character count
@@ -33,7 +33,7 @@ export class BeloTextArea{
   render() {
     return (
       <div>
-        <textarea maxlength={this.maxlength} placeholder={this.placeholder} class={this.disabled ? `${this.disabled}-text ${this.disabled}` : undefined} onInput={event => this.onTextareaInput(event)}>
+        <textarea maxlength={this.maxlength} placeholder={this.placeholder} class={this.disabled ? `disabled-text disabled` : ``} onInput={event => this.onTextareaInput(event)}>
         </textarea>
         <p>{this.count}/{this.maxlength}</p>
       </div>
