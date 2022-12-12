@@ -51,7 +51,7 @@
     "generate": "stencil generate",
     "transform-tokens": "node ./src/design-tokens/config/transform-tokens.js",
     "convert": "node ./node_modules/figma-tokens-convert/convert.js ./src/design-tokens/json/design-tokens.tokens.json ./src/design-tokens/css/_variables.css belo",
-    "build:storybook": "build-storybook -s public"
+    "build:storybook": "storybook build"
   },
   "repository": {
     "type": "git",
