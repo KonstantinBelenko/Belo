@@ -30,12 +30,12 @@ export namespace Components {
         "size": any;
     }
     interface BeloInput {
-        "disabled": any;
-        "hint": 'true';
+        "disabled": boolean;
+        "hint": boolean;
         "hinttext": any;
         "label": any;
         "placeholder": any;
-        "required": any;
+        "required": boolean;
     }
     interface BeloLink {
         "link": any;
@@ -141,12 +141,12 @@ declare namespace LocalJSX {
         "size"?: any;
     }
     interface BeloInput {
-        "disabled"?: any;
-        "hint"?: 'true';
+        "disabled"?: boolean;
+        "hint"?: boolean;
         "hinttext"?: any;
         "label"?: any;
         "placeholder"?: any;
-        "required"?: any;
+        "required"?: boolean;
     }
     interface BeloLink {
         "link"?: any;

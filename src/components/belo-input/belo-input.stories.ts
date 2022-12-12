@@ -29,26 +29,29 @@ export default {
     },
 
     hint: {
-      options: ['true', 'none'],
-      control: {type: 'radio'},
-      description: 'toggels the hint option'
+      options: [true, false],
+      controls: {type: 'radio'},
+      defaultValue: true,
+      description: 'toggels the hint option, is true by default'
     },
 
     hinttext: {
-      description: 'text holder for the hin, if the hint property is set to anythin else but true, it will not be displayed.',
+      description: 'text holder for the hint, if the hint property is set to anythin else but true, it will not be displayed.',
       defaultValue: 'Hint',
     },
 
     disabled: {
-      options: ['disabled', 'none'],
-      control: {type: 'radio'},
-      description: 'defines a disabled state for the button, is an optional argument'
+      options: [true, false],
+      controls: {type: 'radio'},
+      defaultValue: false,
+      description: 'defines a disabled state for the button, is false by default'
     },
 
     required: {
-      options: ['required', 'none'],
-      control: {type: 'radio'},
-      description: 'defines a required state for the input, is an optional argument'
+      options: [true, false],
+      controls: {type: 'radio'},
+      defaultValue: false,
+      description: 'defines a required state for the input, is false by default'
     }
   }
 };
@@ -75,8 +78,10 @@ Input.args = {
   // content: 'Demo text',
 label: 'Label',
 placeholder: 'Text Placeholder',
-hint: 'true',
+hint: true,
 hinttext: 'Hint',
+required: false,
+disabled: false
 
 };
 
@@ -86,9 +91,9 @@ InputRequired.args = {
   // content: 'Demo text',
 label: 'Label',
 placeholder: 'Text Placeholder',
-hint: 'true',
+hint: true,
 hinttext: 'Hint',
-required: 'required'
+required: true
 
 };
 
@@ -98,8 +103,8 @@ InputDisabled.args = {
   // content: 'Demo text',
 label: 'Label',
 placeholder: 'Text Placeholder',
-hint: 'true',
+hint: true,
 hinttext: 'Hint',
-disabled: 'disabled'
+disabled: true
 
 };
