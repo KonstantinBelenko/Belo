@@ -1,0 +1,4097 @@
+{
+  "breakpoint": {
+    "breakpoints": {
+      "sm": {
+        "description": null,
+        "value": 375,
+        "type": "dimension",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "breakpoint"
+          }
+        }
+      },
+      "md": {
+        "description": null,
+        "value": 810,
+        "type": "dimension",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "breakpoint"
+          }
+        }
+      },
+      "lg": {
+        "description": null,
+        "value": 1440,
+        "type": "dimension",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "breakpoint"
+          }
+        }
+      }
+    }
+  },
+  "spacing": {
+    "spacing": {
+      "4": {
+        "description": null,
+        "type": "custom-spacing",
+        "value": {
+          "top": 4,
+          "bottom": 4,
+          "left": 4,
+          "right": 4
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "spacing"
+          }
+        }
+      },
+      "8": {
+        "description": null,
+        "type": "custom-spacing",
+        "value": {
+          "top": 8,
+          "bottom": 8,
+          "left": 8,
+          "right": 8
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "spacing"
+          }
+        }
+      },
+      "16": {
+        "description": null,
+        "type": "custom-spacing",
+        "value": {
+          "top": 16,
+          "bottom": 16,
+          "left": 16,
+          "right": 16
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "spacing"
+          }
+        }
+      },
+      "24": {
+        "description": null,
+        "type": "custom-spacing",
+        "value": {
+          "top": 24,
+          "bottom": 24,
+          "left": 24,
+          "right": 24
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "spacing"
+          }
+        }
+      },
+      "32": {
+        "description": null,
+        "type": "custom-spacing",
+        "value": {
+          "top": 32,
+          "bottom": 32,
+          "left": 32,
+          "right": 32
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "spacing"
+          }
+        }
+      },
+      "40": {
+        "description": null,
+        "type": "custom-spacing",
+        "value": {
+          "top": 40,
+          "bottom": 40,
+          "left": 40,
+          "right": 40
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "spacing"
+          }
+        }
+      },
+      "56": {
+        "description": null,
+        "type": "custom-spacing",
+        "value": {
+          "top": 56,
+          "bottom": 56,
+          "left": 56,
+          "right": 56
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "spacing"
+          }
+        }
+      },
+      "64": {
+        "description": null,
+        "type": "custom-spacing",
+        "value": {
+          "top": 64,
+          "bottom": 64,
+          "left": 64,
+          "right": 64
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "spacing"
+          }
+        }
+      },
+      "72": {
+        "description": null,
+        "type": "custom-spacing",
+        "value": {
+          "top": 72,
+          "bottom": 72,
+          "left": 72,
+          "right": 72
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "spacing"
+          }
+        }
+      },
+      "80": {
+        "description": null,
+        "type": "custom-spacing",
+        "value": {
+          "top": 80,
+          "bottom": 80,
+          "left": 80,
+          "right": 80
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "color": {
+    "color": {
+      "#d0ffd7": {
+        "description": "",
+        "type": "color",
+        "value": "#d0ffd7ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:1beec8e9b0ca23787cf1c73c6cc47befa85889b3,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "#89f58b": {
+        "description": "",
+        "type": "color",
+        "value": "#89f58bff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:131a72eb9593fa5a854d056f6063af0991fb2031,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "#42ea3e": {
+        "description": "",
+        "type": "color",
+        "value": "#42ea3eff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:58ed38e70b1fb2b03c3531234b9eacf16876919b,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "#3cd337": {
+        "description": "",
+        "type": "color",
+        "value": "#3cd337ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:fefc7836cb7c7ba128c27cee603a9254cc4c1460,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "#35bc30": {
+        "description": "",
+        "type": "color",
+        "value": "#35bc30ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:cc13d68be18b69a570be4428d4ba89bc5a922d55,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "#2fa529": {
+        "description": "",
+        "type": "color",
+        "value": "#2fa529ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:ad1f06ed16d40279000d32710d7f4576e7779411,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "#288e22": {
+        "description": "",
+        "type": "color",
+        "value": "#288e22ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:48c86a6cac0ca5af986b4e2b864e207dfbf33844,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "#22771c": {
+        "description": "",
+        "type": "color",
+        "value": "#22771cff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:1d278d0d9fae81454a0434e6d38f796186918449,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "#1b6015": {
+        "description": "",
+        "type": "color",
+        "value": "#1b6015ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c5dcaae69f5363ed306d26823492bed111a68448,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "#15490e": {
+        "description": "",
+        "type": "color",
+        "value": "#15490eff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:e28a3a5f1630b31edd165c9fbfd62c1e0f4c3c77,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "#0e3207": {
+        "description": "",
+        "type": "color",
+        "value": "#0e3207ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:77a27e28e6fc475ad11fbcfcc570e94ebace4bde,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "#081b00": {
+        "description": "",
+        "type": "color",
+        "value": "#081b00ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:266fce2b73c08c722a96d0aa171d7502a61fdfc8,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "purple": {
+        "purple-50": {
+          "description": "",
+          "type": "color",
+          "value": "#f4f2fcff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:bc29d8c3f64432eac280deb0de743ee7573abe7e,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "purple-100": {
+          "description": "",
+          "type": "color",
+          "value": "#ebe9f7ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:d887adce00e3b07c97b86aba075412e5af0a993e,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "purple-300": {
+          "description": "",
+          "type": "color",
+          "value": "#c0b7ebff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:b99de8a848f9d048e86154a12560cc3733747848,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "purple-400": {
+          "description": "",
+          "type": "color",
+          "value": "#958adeff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:b57db8dec405d07c942797e335616eba5b575de2,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "purple-500": {
+          "description": "",
+          "type": "color",
+          "value": "#6b60d1ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:3acea8d26bd4f0b80453c6e810775222b1254c9f,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "purple-600": {
+          "description": "",
+          "type": "color",
+          "value": "#443bc5ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:3ea4436d2d309ee36f8cfafdc16fc6b19c7fc7fd,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "purple-700": {
+          "description": "",
+          "type": "color",
+          "value": "#2b289eff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:00b22e44d16c104b318631ab5151147a9751d9bc,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "purple-800": {
+          "description": "",
+          "type": "color",
+          "value": "#181878ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:a5ac401106d8c75ed137e167578ab8f25f873ca3,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "purple-900": {
+          "description": "",
+          "type": "color",
+          "value": "#0c0f52ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:aa7f2ec28a23b5574c664a2b52575f9db428224f,",
+              "exportKey": "color"
+            }
+          }
+        }
+      },
+      "neutral": {
+        "white-16%": {
+          "description": "",
+          "type": "color",
+          "value": "#ffffff29",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:25854de3434d60d87e25fab41db3746d47006e49,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "white-40%": {
+          "description": "",
+          "type": "color",
+          "value": "#ffffff66",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:0d06c92cf0d862713e5ec67f8ae921f652f5644f,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "white-100%": {
+          "description": "",
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:15d3ea268af19a96ac51ff266e7946de57bb5597,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "neutral-50": {
+          "description": "",
+          "type": "color",
+          "value": "#fafafaff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:b9edb489a6edbd7897ee3f8e1cfcc06ba541d9ee,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "neutral-100": {
+          "description": "",
+          "type": "color",
+          "value": "#f0f0f0ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:85b82a963d2a04587a392dc0a23ff7694ba788a5,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "neutral-200": {
+          "description": "",
+          "type": "color",
+          "value": "#d9d9d9ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:5306cf9c95c48a35849eccf15646400a3fa43346,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "neutral-500": {
+          "description": "",
+          "type": "color",
+          "value": "#999999ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:86af8878920611b8037a29ad50da5f6dd37a2d13,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "neutral-700": {
+          "description": "",
+          "type": "color",
+          "value": "#4d4d4dff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:36ed6785ae21daf2fe105b93b9e4deaf050fb42e,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "neutral-900": {
+          "description": "",
+          "type": "color",
+          "value": "#262626ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:0269142fde5c02b7edbe59e63a6637994d3a7896,",
+              "exportKey": "color"
+            }
+          }
+        }
+      },
+      "semantic": {
+        "success-50": {
+          "description": "",
+          "type": "color",
+          "value": "#ebfaf0ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:649f042463bb3c068cbab301ee217c198042d179,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "success-500": {
+          "description": "",
+          "type": "color",
+          "value": "#5acf81ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:0f9f247b7bfb8153ab80ac739b8b68fb2dcf9294,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "danger-50": {
+          "description": "",
+          "type": "color",
+          "value": "#fbececff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:4b496317be5b0f383ebfd9f573836ea32509bccb,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "danger-500": {
+          "description": "",
+          "type": "color",
+          "value": "#ec5857ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:e51f2fb3b7378ba90adf33464f86a017b3e47078,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "warning-500": {
+          "description": "",
+          "type": "color",
+          "value": "#f6de63ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:1f5d3b3aea610be8a95098801a56fe3fba2fc037,",
+              "exportKey": "color"
+            }
+          }
+        }
+      }
+    }
+  },
+  "gradient": {
+    "gradient": {
+      "purple": {
+        "gradient purple-50": {
+          "description": "",
+          "type": "custom-gradient",
+          "value": {
+            "gradientType": "linear",
+            "rotation": 180,
+            "stops": [
+              {
+                "position": 0,
+                "color": "#fdfafdff"
+              },
+              {
+                "position": 1,
+                "color": "#f0eff9ff"
+              }
+            ]
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:ffbc82cdcb2b773f6d755f85e6d80ec64a690992,",
+              "exportKey": "gradient"
+            }
+          }
+        }
+      }
+    }
+  },
+  "grid": {
+    "grid": {
+      "desktop_12 columns": {
+        "description": null,
+        "type": "custom-grid",
+        "value": {
+          "pattern": "columns",
+          "gutterSize": 24,
+          "alignment": "stretch",
+          "count": 12,
+          "offset": 32
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:654cf2344c756c5a1069c495309a217117e3ad0b,",
+            "exportKey": "grid"
+          }
+        }
+      },
+      "tablet_8columns": {
+        "description": null,
+        "type": "custom-grid",
+        "value": {
+          "pattern": "columns",
+          "gutterSize": 24,
+          "alignment": "stretch",
+          "count": 8,
+          "offset": 32
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:054217b316b56805bb9f6b0ac4f037c8784836d7,",
+            "exportKey": "grid"
+          }
+        }
+      },
+      "mobile_4columns": {
+        "description": null,
+        "type": "custom-grid",
+        "value": {
+          "pattern": "columns",
+          "gutterSize": 24,
+          "alignment": "stretch",
+          "count": 4,
+          "offset": 32
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:aaca5132fe39cc093728aeb0eba0202d0f022e8f,",
+            "exportKey": "grid"
+          }
+        }
+      }
+    }
+  },
+  "font": {
+    "font": {
+      "desktop": {
+        "display-large": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 212,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.44,
+            "lineHeight": 212,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:6ee62996e623fe23197f869531b83536e6a092b1,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "display-medium": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 120,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -2.4,
+            "lineHeight": 120,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:6aa4cc34f5bdb1f239a940fe70d1dfaeae760ed4,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "display-small": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 68,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.3,
+            "lineHeight": 68,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:36f5a3c73fd85a3563c59fadc3020439257624f9,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "h1": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 50,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.6,
+            "lineHeight": 56,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:99317f06fb54c84c572c2304658d896819609b30,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "h2": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 38,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.6,
+            "lineHeight": 44,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:af87cbdcd908edf55a9ec4cf4cadb17259783d32,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "h3": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 28,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.3,
+            "lineHeight": 32,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:58ef2c2a12f60346841e2d06d8f95102abcdccae,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "h4": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 22,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.44,
+            "lineHeight": 28,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:d3207373b20bae6e825f1c6797fa8184cd21fd86,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "h5": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.2,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:14ad63213c02b07585d829710849d8b1e95c2631,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "p-large": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 22,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.3,
+            "lineHeight": 32,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 32,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:f978e36b665569378762a55cf3d587d4e7a525df,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "p-base": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": 0.2,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 35,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:bffd505a06a709bbf8da5180e3f872164adb58f0,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "p-small": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.16,
+            "lineHeight": 20,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 16,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:89691cca8fdac0fc4df8890525d8c9a18ea627f8,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "caption-large": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.1,
+            "lineHeight": 20,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "uppercase"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:03452a981f2928ad646edce6552e43b1c5c84a43,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "caption-small": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 9,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.1,
+            "lineHeight": 20,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "uppercase"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:38f4177da6ecfd3d2950e348f7b9ca52ac8b49cb,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "button": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.2,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "capitalize"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:433236ab1f6f2d51225d6ff684387bc10fb81820,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "tag": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.1,
+            "lineHeight": 20,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:1f5973632093294f09238a01b2e0892f8a4e2f76,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "quote-large": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 50,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.4,
+            "lineHeight": 60,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 35,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:851af052fb86143a2c1a1af760fa39612b46f4da,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "quote-medium": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 38,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.4,
+            "lineHeight": 48,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 35,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:de699a5e9b7e9b319bc9f8ace9a7e492ba79bf73,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "quote-small": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 28,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.4,
+            "lineHeight": 40,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 35,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:b35d2e2f3a3acce2ee2a690881159f7ceef58ef6,",
+              "exportKey": "font"
+            }
+          }
+        }
+      },
+      "tablet": {
+        "display-large": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 144,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.4,
+            "lineHeight": 144,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:ffb65f572ff6002f988a8a2ba4ffa95362a57c3c,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "display-medium": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 80,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -1.4,
+            "lineHeight": 72,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:b96e3b6bcb16243271746e0d40231d52c3f723f6,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "h1": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 32,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.4,
+            "lineHeight": 35,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:32cda7df6c30d04f75470b1f3fb5ce136c1b3d31,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "h2 & h3": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 22,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.36,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:488fb9dbf860c5d6946145ab967ccb3b21b75703,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "h4": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.16,
+            "lineHeight": 22,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:4932629f6c02b09842ffd321d39cc9931aef6a51,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "h5": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.1,
+            "lineHeight": 17,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:1d76d6d505cdaf662013742dfd925ec816bf62f0,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "p-large & medium": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.2,
+            "lineHeight": 22,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 24,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:40851a3c72fcda2e0f3fb8b543837a6db66ba7f0,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "p-small": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.1,
+            "lineHeight": 17,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 17,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:a15f918d1c7292c29d82bb930b454be29447e2e8,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "captions": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 10,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.1,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "uppercase"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:f49b835ae39e132f2d6a6b489abf057c5859e81a,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "button": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.16,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:ff21c634a6e0657182519728f820a2d4f3f8ba20,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "tag": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.1,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:ddfa9f9dfd5d6b161de3bef62f23f757f237a9a2,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "quote-large": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 30,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.4,
+            "lineHeight": 40,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 35,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:883dc965c065c5a74b94a72c7aab970781c94d9c,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "quote-small": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 22,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.4,
+            "lineHeight": 32,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:143f85731affc53dab036a73654f258a5ad5ed18,",
+              "exportKey": "font"
+            }
+          }
+        }
+      },
+      "mobile": {
+        "display-large": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 100,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -1.25,
+            "lineHeight": 100,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:274bad11a7b7b78eb2243e426329c09bd592dc2d,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "display-medium": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 50,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -1,
+            "lineHeight": 45,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:3dd69fd3209b76f3c4fc4391312d3a9b2ccf5998,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "display-small": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 24,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.2,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:d8accbc59a67a9ebb6aa768acf7f7d88c6ee17d4,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "h1": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 35,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.4,
+            "lineHeight": 40,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:56bcc9fdbe2c3c6e594317f5c91412ffaa7ca4e2,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "h2": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 25,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.3,
+            "lineHeight": 31,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:359eff3a6b1201afc45762fd06209ad273aac0da,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "h3": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 25,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.3,
+            "lineHeight": 31,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:8011d17dff2f4b16a3f31c876d6e106583c18c27,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "h4": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 18,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.16,
+            "lineHeight": 22,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:ac15d3ef994b279c1b23d90bc4403e93cc357734,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "h5": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.16,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:0e2b58d72c5bef1bbcc20507f4e745d4a0eee1e0,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "p-large": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 22,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.2,
+            "lineHeight": 30,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:727845880789511a7c0e9c1b2710f41e7bcd520a,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "p-medium": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 18,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.27,
+            "lineHeight": 26,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:ab48e007dffeed00fcf53587ee6d9ed79c7bbc9d,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "p-small": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.16,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:144978b794fc3bb228fc61302bc264a40df5f479,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "p-mini": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 14,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.14,
+            "lineHeight": 18,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 28,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:913d63fb04bb779a7bd68b081f6d54ad3f8e41ef,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "button": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 16,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.16,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:a20662b70802b94799221e35b5060fdafc4580b3,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "caption": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 10,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.1,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "uppercase"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:01195026003889e6273152d45df91f12e232dd65,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "tag": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 500,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.1,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:f98dd793cbc1cd847fe1815f3d43a1be6779aeef,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "field-tag": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 12,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.1,
+            "lineHeight": 24,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:9eca65ceedeec3edb583b7f247a0fd1180297cb9,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "quote-large": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 28,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.3,
+            "lineHeight": 32,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:4e93376926d20bf4fe72d65eefe85214bdd8de2a,",
+              "exportKey": "font"
+            }
+          }
+        },
+        "quote-small": {
+          "type": "custom-fontStyle",
+          "value": {
+            "fontSize": 24,
+            "textDecoration": "none",
+            "fontFamily": "Apercu Pro",
+            "fontWeight": 300,
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "letterSpacing": -0.4,
+            "lineHeight": 33,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "none"
+          },
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:d37b949fb9c19733acda9bd3ccd42206638b0ec0,",
+              "exportKey": "font"
+            }
+          }
+        }
+      }
+    }
+  },
+  "effect": {
+    "effect": {
+      "sideline": {
+        "description": null,
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "innerShadow",
+          "radius": 0,
+          "color": "#e6e6e6ff",
+          "offsetX": -1,
+          "offsetY": 0,
+          "spread": 0
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:d128d7cbbbc5c310fb3924ef23fdca97e5ec1526,",
+            "exportKey": "effect"
+          }
+        }
+      },
+      "bottomline": {
+        "description": null,
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "innerShadow",
+          "radius": 0,
+          "color": "#e6e6e6ff",
+          "offsetX": 0,
+          "offsetY": -1,
+          "spread": 0
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:6bbe5a5b1bdb501ecf4dfe714d1500bd57bd5d72,",
+            "exportKey": "effect"
+          }
+        }
+      }
+    }
+  },
+  "typography": {
+    "typography": {
+      "desktop": {
+        "display-large": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 212
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.44
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 212
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "display-medium": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 120
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -2.4
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 120
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "display-small": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 68
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.3
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 68
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "h1": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 50
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.6
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 56
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "h2": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 38
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.6
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 44
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "h3": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 28
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.3
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 32
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "h4": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 22
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.44
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 28
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "h5": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 16
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.2
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "p-large": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 22
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.3
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 32
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 32
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "p-base": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 16
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": 0.2
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 35
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "p-small": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 12
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.16
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 20
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 16
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "caption-large": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 12
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.1
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 20
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "uppercase"
+          }
+        },
+        "caption-small": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 9
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.1
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 20
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "uppercase"
+          }
+        },
+        "button": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 16
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.2
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "capitalize"
+          }
+        },
+        "tag": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 12
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.1
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 20
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "quote-large": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 50
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.4
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 60
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 35
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "quote-medium": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 38
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.4
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 48
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 35
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "quote-small": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 28
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.4
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 40
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 35
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        }
+      },
+      "tablet": {
+        "display-large": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 144
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.4
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 144
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "display-medium": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 80
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -1.4
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 72
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "h1": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 32
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.4
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 35
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "h2 & h3": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 22
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.36
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "h4": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 14
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.16
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 22
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "h5": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 12
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.1
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 17
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "p-large & medium": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 14
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.2
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 22
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 24
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "p-small": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 12
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.1
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 17
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 17
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "captions": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 10
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.1
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "uppercase"
+          }
+        },
+        "button": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 14
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.16
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "tag": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 12
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.1
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "quote-large": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 30
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.4
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 40
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 35
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "quote-small": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 22
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.4
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 32
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        }
+      },
+      "mobile": {
+        "display-large": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 100
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -1.25
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 100
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "display-medium": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 50
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -1
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 45
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "display-small": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 24
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.2
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "h1": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 35
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.4
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 40
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "h2": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 25
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.3
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 31
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "h3": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 25
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.3
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 31
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "h4": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 18
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.16
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 22
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "h5": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 16
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.16
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "p-large": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 22
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.2
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 30
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "p-medium": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 18
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.27
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 26
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "p-small": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 16
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.16
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "p-mini": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 14
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.14
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 18
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 28
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "button": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 16
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.16
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "caption": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 10
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.1
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "uppercase"
+          }
+        },
+        "tag": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 12
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 500
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.1
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "field-tag": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 12
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.1
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 24
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "quote-large": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 28
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.3
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 32
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        },
+        "quote-small": {
+          "fontSize": {
+            "type": "dimension",
+            "value": 24
+          },
+          "textDecoration": {
+            "type": "string",
+            "value": "none"
+          },
+          "fontFamily": {
+            "type": "string",
+            "value": "Apercu Pro"
+          },
+          "fontWeight": {
+            "type": "number",
+            "value": 300
+          },
+          "fontStyle": {
+            "type": "string",
+            "value": "normal"
+          },
+          "fontStretch": {
+            "type": "string",
+            "value": "normal"
+          },
+          "letterSpacing": {
+            "type": "dimension",
+            "value": -0.4
+          },
+          "lineHeight": {
+            "type": "dimension",
+            "value": 33
+          },
+          "paragraphIndent": {
+            "type": "dimension",
+            "value": 0
+          },
+          "paragraphSpacing": {
+            "type": "dimension",
+            "value": 0
+          },
+          "textCase": {
+            "type": "string",
+            "value": "none"
+          }
+        }
+      }
+    }
+  }
+}
