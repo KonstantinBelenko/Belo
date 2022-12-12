@@ -1,0 +1,21 @@
+@import "../../design-tokens/css/_variables.css";
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+:host {
+  display: block;
+}
+
+a, a:hover, a:visited {
+  font-size: calc(var(--belo-font-family-font-family-text-font-size) * 1px);
+  font-family: var(--belo-font-family-font-family-text-font-family);
+  color: var(--belo-color-text-color-text);
+  line-height: calc(var(--belo-font-family-font-family-text-line-heigh) * 1px);
+  text-decoration: none;
+  border-bottom: 2px solid var(--belo-color-text-color-text);
+
+}
+a:focus-visible {
+  outline: 2px solid var(--belo-color-text-color-text);
+  border-radius: 4px;
+
+}

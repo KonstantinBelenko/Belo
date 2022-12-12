@@ -31,6 +31,9 @@ export namespace Components {
         "placeholder": any;
         "required": any;
     }
+    interface BeloLink {
+        "link": any;
+    }
     interface BeloP {
         "align": 'left' | 'right' | 'center';
     }
@@ -71,6 +74,12 @@ declare global {
         prototype: HTMLBeloInputElement;
         new (): HTMLBeloInputElement;
     };
+    interface HTMLBeloLinkElement extends Components.BeloLink, HTMLStencilElement {
+    }
+    var HTMLBeloLinkElement: {
+        prototype: HTMLBeloLinkElement;
+        new (): HTMLBeloLinkElement;
+    };
     interface HTMLBeloPElement extends Components.BeloP, HTMLStencilElement {
     }
     var HTMLBeloPElement: {
@@ -89,6 +98,7 @@ declare global {
         "belo-card": HTMLBeloCardElement;
         "belo-header": HTMLBeloHeaderElement;
         "belo-input": HTMLBeloInputElement;
+        "belo-link": HTMLBeloLinkElement;
         "belo-p": HTMLBeloPElement;
         "belo-text-area": HTMLBeloTextAreaElement;
     }
@@ -119,6 +129,9 @@ declare namespace LocalJSX {
         "placeholder"?: any;
         "required"?: any;
     }
+    interface BeloLink {
+        "link"?: any;
+    }
     interface BeloP {
         "align"?: 'left' | 'right' | 'center';
     }
@@ -133,6 +146,7 @@ declare namespace LocalJSX {
         "belo-card": BeloCard;
         "belo-header": BeloHeader;
         "belo-input": BeloInput;
+        "belo-link": BeloLink;
         "belo-p": BeloP;
         "belo-text-area": BeloTextArea;
     }
@@ -146,6 +160,7 @@ declare module "@stencil/core" {
             "belo-card": LocalJSX.BeloCard & JSXBase.HTMLAttributes<HTMLBeloCardElement>;
             "belo-header": LocalJSX.BeloHeader & JSXBase.HTMLAttributes<HTMLBeloHeaderElement>;
             "belo-input": LocalJSX.BeloInput & JSXBase.HTMLAttributes<HTMLBeloInputElement>;
+            "belo-link": LocalJSX.BeloLink & JSXBase.HTMLAttributes<HTMLBeloLinkElement>;
             "belo-p": LocalJSX.BeloP & JSXBase.HTMLAttributes<HTMLBeloPElement>;
             "belo-text-area": LocalJSX.BeloTextArea & JSXBase.HTMLAttributes<HTMLBeloTextAreaElement>;
         }
