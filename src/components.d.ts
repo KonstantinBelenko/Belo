@@ -6,6 +6,9 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface BeloBadge {
+        "counter": any;
+    }
     interface BeloButtonPrimary {
         "disabled": boolean;
         "pill": boolean;
@@ -50,6 +53,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLBeloBadgeElement extends Components.BeloBadge, HTMLStencilElement {
+    }
+    var HTMLBeloBadgeElement: {
+        prototype: HTMLBeloBadgeElement;
+        new (): HTMLBeloBadgeElement;
+    };
     interface HTMLBeloButtonPrimaryElement extends Components.BeloButtonPrimary, HTMLStencilElement {
     }
     var HTMLBeloButtonPrimaryElement: {
@@ -105,6 +114,7 @@ declare global {
         new (): HTMLBeloTextAreaElement;
     };
     interface HTMLElementTagNameMap {
+        "belo-badge": HTMLBeloBadgeElement;
         "belo-button-primary": HTMLBeloButtonPrimaryElement;
         "belo-button-secondary": HTMLBeloButtonSecondaryElement;
         "belo-caption": HTMLBeloCaptionElement;
@@ -117,6 +127,9 @@ declare global {
     }
 }
 declare namespace LocalJSX {
+    interface BeloBadge {
+        "counter"?: any;
+    }
     interface BeloButtonPrimary {
         "disabled"?: boolean;
         "pill"?: boolean;
@@ -160,6 +173,7 @@ declare namespace LocalJSX {
         "placeholder"?: any;
     }
     interface IntrinsicElements {
+        "belo-badge": BeloBadge;
         "belo-button-primary": BeloButtonPrimary;
         "belo-button-secondary": BeloButtonSecondary;
         "belo-caption": BeloCaption;
@@ -175,6 +189,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "belo-badge": LocalJSX.BeloBadge & JSXBase.HTMLAttributes<HTMLBeloBadgeElement>;
             "belo-button-primary": LocalJSX.BeloButtonPrimary & JSXBase.HTMLAttributes<HTMLBeloButtonPrimaryElement>;
             "belo-button-secondary": LocalJSX.BeloButtonSecondary & JSXBase.HTMLAttributes<HTMLBeloButtonSecondaryElement>;
             "belo-caption": LocalJSX.BeloCaption & JSXBase.HTMLAttributes<HTMLBeloCaptionElement>;
