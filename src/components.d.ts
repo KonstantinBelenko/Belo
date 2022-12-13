@@ -56,12 +56,6 @@ export namespace Components {
         "gap": string;
         "justifyContent": 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly';
         "wrap": 'wrap' | 'nowrap';
-        "alignContent": 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly' | 'stretch';
-        "alignItems": 'flex-start' | 'flex-end' | 'center' | 'baseline' | 'stretch';
-        "direction": 'row' | 'column';
-        "gap": string;
-        "justifyContent": 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly';
-        "wrap": 'wrap' | 'nowrap';
     }
     interface BeloHeader {
         "align": 'left' | 'right' | 'center';
@@ -82,7 +76,6 @@ export namespace Components {
         "align": 'left' | 'right' | 'center';
     }
     interface BeloStack {
-        "direction": 'row' | 'column';
         "direction": 'row' | 'column';
         "gap": string;
     }
@@ -243,12 +236,6 @@ declare namespace LocalJSX {
         "gap"?: string;
         "justifyContent"?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly';
         "wrap"?: 'wrap' | 'nowrap';
-        "alignContent"?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly' | 'stretch';
-        "alignItems"?: 'flex-start' | 'flex-end' | 'center' | 'baseline' | 'stretch';
-        "direction"?: 'row' | 'column';
-        "gap"?: string;
-        "justifyContent"?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly';
-        "wrap"?: 'wrap' | 'nowrap';
     }
     interface BeloHeader {
         "align"?: 'left' | 'right' | 'center';
@@ -269,7 +256,6 @@ declare namespace LocalJSX {
         "align"?: 'left' | 'right' | 'center';
     }
     interface BeloStack {
-        "direction"?: 'row' | 'column';
         "direction"?: 'row' | 'column';
         "gap"?: string;
     }
