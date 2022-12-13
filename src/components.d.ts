@@ -6,6 +6,8 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface BeloAvatar {
+    }
     interface BeloBadge {
         "counter": any;
     }
@@ -53,6 +55,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLBeloAvatarElement extends Components.BeloAvatar, HTMLStencilElement {
+    }
+    var HTMLBeloAvatarElement: {
+        prototype: HTMLBeloAvatarElement;
+        new (): HTMLBeloAvatarElement;
+    };
     interface HTMLBeloBadgeElement extends Components.BeloBadge, HTMLStencilElement {
     }
     var HTMLBeloBadgeElement: {
@@ -114,6 +122,7 @@ declare global {
         new (): HTMLBeloTextAreaElement;
     };
     interface HTMLElementTagNameMap {
+        "belo-avatar": HTMLBeloAvatarElement;
         "belo-badge": HTMLBeloBadgeElement;
         "belo-button-primary": HTMLBeloButtonPrimaryElement;
         "belo-button-secondary": HTMLBeloButtonSecondaryElement;
@@ -127,6 +136,8 @@ declare global {
     }
 }
 declare namespace LocalJSX {
+    interface BeloAvatar {
+    }
     interface BeloBadge {
         "counter"?: any;
     }
@@ -173,6 +184,7 @@ declare namespace LocalJSX {
         "placeholder"?: any;
     }
     interface IntrinsicElements {
+        "belo-avatar": BeloAvatar;
         "belo-badge": BeloBadge;
         "belo-button-primary": BeloButtonPrimary;
         "belo-button-secondary": BeloButtonSecondary;
@@ -189,6 +201,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "belo-avatar": LocalJSX.BeloAvatar & JSXBase.HTMLAttributes<HTMLBeloAvatarElement>;
             "belo-badge": LocalJSX.BeloBadge & JSXBase.HTMLAttributes<HTMLBeloBadgeElement>;
             "belo-button-primary": LocalJSX.BeloButtonPrimary & JSXBase.HTMLAttributes<HTMLBeloButtonPrimaryElement>;
             "belo-button-secondary": LocalJSX.BeloButtonSecondary & JSXBase.HTMLAttributes<HTMLBeloButtonSecondaryElement>;
