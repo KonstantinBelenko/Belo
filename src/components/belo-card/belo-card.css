@@ -1,5 +1,11 @@
 :host {
   display: block;
+  font-family: var(--belo-font-family-font-family-text-fontfamily);
+
+}
+* {
+  font-family: var(--belo-font-family-font-family-text-fontfamily);
+
 }
 
 .container {
@@ -15,6 +21,8 @@ p, span {
   margin: 0;
   padding: 0;
   color: var(--belo-color-text-color-text);
+  font-family: var(--belo-font-family-font-family-text-fontfamily);
+
 }
 
 .inline {
@@ -53,21 +61,26 @@ svg {
 
 .location {
   font-size: var(--belo-font-family-font-family-text-font-size);
+  font-family: var(--belo-font-family-font-family-text-fontfamily);
   font-weight: bold;
 }
 
 .score {
   font-size: calc(var(--belo-font-size-font-size-40-font-siz) * 1px);
+  font-family: var(--belo-font-family-font-family-text-fontfamily);
+
 }
 
 .listing {
   font-size: var(--belo-font-size-font-size-40-font-siz);
   font-weight: var(--belo-font-weight-font-weight-normal-font-size);
+  font-family: var(--belo-font-family-font-family-text-fontfamily);
   color: var(--belo-color-text-color-text-weak);
 }
 
 .total-price {
   font-size: var(--belo-font-size-font-size-30-font-size);
+  font-family: var(--belo-font-family-font-family-text-fontfamily);
   color: var(--belo-color-text-color-text-weak);
 }
 
