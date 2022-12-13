@@ -24,6 +24,10 @@ export class BeloBox {
   @Prop() borderColor: string = "";
   @Prop() borderWidth: string = "0";
   @Prop() color: string = "";
+  @Prop() maxW: string = "";
+  @Prop() maxH: string = "";
+  @Prop() minW: string = "";
+  @Prop() minH: string = "";
 
   render() {
     return (
@@ -45,7 +49,11 @@ export class BeloBox {
         borderStyle: this.borderStyle,
         borderColor: this.borderColor,
         borderWidth: this.borderWidth,
-        color: this.color
+        color: this.color,
+        maxWidth: this.maxW,
+        maxHeight: this.maxH,
+        minWidth: this.minW,
+        minHeight: this.minH,
       }}>
         <slot></slot>
       </div>
