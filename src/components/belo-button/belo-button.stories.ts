@@ -5,7 +5,7 @@
 
  export default {
   // this creates a ‘Components’ folder and a 'Button' subfolder in Storybook's side menu
-  title: 'Components/ButtonSecondary',
+  title: 'Components/Button',
   argTypes: {
     text: {
       description: 'This is a text placeholder',
@@ -22,6 +22,16 @@
       defaultValue: false,
     },
 
+    variant: {
+      description: 'Button variant. Primary or secondary',
+      control: {
+        type: 'radio', 
+        labels: ["primary", "secondary"],
+      },
+      options: ["primary", "secondary"],
+      defaultValue: "primary",
+    }
+
   }
 };
 
@@ -30,7 +40,7 @@
  * can later on customize with different values for its attribute properties and events
  */
 const Template = (args) => `
-  <belo-button-secondary disabled="${args.disabled}" pill="${args.pill}">${args.text}</belo-button-secondary>
+  <belo-button ${args.disabled ? "disabled" : ""} variant="${args.variant}" pill="${args.pill}">${args.text}</belo-button>
 `;
 
 /**
@@ -40,9 +50,10 @@ const Template = (args) => `
  * IMPORTANT: Remember to export each template binding!
  * Learn more about how to set up controls at https://storybook.js.org/docs/web-components/essentials/controls
  */
-export const BeloButtonSecondary = Template.bind({});
-BeloButtonSecondary.args = {
+export const BeloButton = Template.bind({});
+BeloButton.args = {
   text: 'Label',
   disabled: false,
   pill: false,
+  variant: "primary",
 };

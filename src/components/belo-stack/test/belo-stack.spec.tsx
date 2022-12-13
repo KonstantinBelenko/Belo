@@ -1,18 +1,18 @@
 import { newSpecPage } from '@stencil/core/testing';
-import { BeloButtonPrimary } from '../belo-button-primary';
+import { BeloStack } from '../belo-stack';
 
-describe('belo-button-primary', () => {
+describe('belo-stack', () => {
   it('renders', async () => {
     const page = await newSpecPage({
-      components: [BeloButtonPrimary],
-      html: `<belo-button-primary></belo-button-primary>`,
+      components: [BeloStack],
+      html: `<belo-stack></belo-stack>`,
     });
     expect(page.root).toEqualHtml(`
-      <belo-button-primary>
+      <belo-stack>
         <mock:shadow-root>
           <slot></slot>
         </mock:shadow-root>
-      </belo-button-primary>
+      </belo-stack>
     `);
   });
 });
