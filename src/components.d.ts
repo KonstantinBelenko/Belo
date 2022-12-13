@@ -6,6 +6,26 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface BeloBox {
+        "alignContent": string;
+        "alignItems": string;
+        "bg": string;
+        "borderColor": string;
+        "borderStyle": string;
+        "borderWidth": string;
+        "color": string;
+        "display": string;
+        "fd": string;
+        "fw": string;
+        "gap": string;
+        "h": string;
+        "justifyContent": string;
+        "m": string;
+        "p": string;
+        "rounded": string;
+        "shadow": string;
+        "w": string;
+    }
     interface BeloButton {
         "disabled": boolean;
         "pill": boolean;
@@ -21,6 +41,8 @@ export namespace Components {
         "price_per_night": any;
         "score": any;
         "total_price": any;
+    }
+    interface BeloFlex {
     }
     interface BeloHeader {
         "align": 'left' | 'right' | 'center';
@@ -41,6 +63,7 @@ export namespace Components {
         "align": 'left' | 'right' | 'center';
     }
     interface BeloStack {
+        "gap": string;
         "orientation": 'row' | 'column';
     }
     interface BeloTextArea {
@@ -50,6 +73,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLBeloBoxElement extends Components.BeloBox, HTMLStencilElement {
+    }
+    var HTMLBeloBoxElement: {
+        prototype: HTMLBeloBoxElement;
+        new (): HTMLBeloBoxElement;
+    };
     interface HTMLBeloButtonElement extends Components.BeloButton, HTMLStencilElement {
     }
     var HTMLBeloButtonElement: {
@@ -67,6 +96,12 @@ declare global {
     var HTMLBeloCardElement: {
         prototype: HTMLBeloCardElement;
         new (): HTMLBeloCardElement;
+    };
+    interface HTMLBeloFlexElement extends Components.BeloFlex, HTMLStencilElement {
+    }
+    var HTMLBeloFlexElement: {
+        prototype: HTMLBeloFlexElement;
+        new (): HTMLBeloFlexElement;
     };
     interface HTMLBeloHeaderElement extends Components.BeloHeader, HTMLStencilElement {
     }
@@ -105,9 +140,11 @@ declare global {
         new (): HTMLBeloTextAreaElement;
     };
     interface HTMLElementTagNameMap {
+        "belo-box": HTMLBeloBoxElement;
         "belo-button": HTMLBeloButtonElement;
         "belo-caption": HTMLBeloCaptionElement;
         "belo-card": HTMLBeloCardElement;
+        "belo-flex": HTMLBeloFlexElement;
         "belo-header": HTMLBeloHeaderElement;
         "belo-input": HTMLBeloInputElement;
         "belo-link": HTMLBeloLinkElement;
@@ -117,6 +154,26 @@ declare global {
     }
 }
 declare namespace LocalJSX {
+    interface BeloBox {
+        "alignContent"?: string;
+        "alignItems"?: string;
+        "bg"?: string;
+        "borderColor"?: string;
+        "borderStyle"?: string;
+        "borderWidth"?: string;
+        "color"?: string;
+        "display"?: string;
+        "fd"?: string;
+        "fw"?: string;
+        "gap"?: string;
+        "h"?: string;
+        "justifyContent"?: string;
+        "m"?: string;
+        "p"?: string;
+        "rounded"?: string;
+        "shadow"?: string;
+        "w"?: string;
+    }
     interface BeloButton {
         "disabled"?: boolean;
         "pill"?: boolean;
@@ -132,6 +189,8 @@ declare namespace LocalJSX {
         "price_per_night"?: any;
         "score"?: any;
         "total_price"?: any;
+    }
+    interface BeloFlex {
     }
     interface BeloHeader {
         "align"?: 'left' | 'right' | 'center';
@@ -152,6 +211,7 @@ declare namespace LocalJSX {
         "align"?: 'left' | 'right' | 'center';
     }
     interface BeloStack {
+        "gap"?: string;
         "orientation"?: 'row' | 'column';
     }
     interface BeloTextArea {
@@ -160,9 +220,11 @@ declare namespace LocalJSX {
         "placeholder"?: any;
     }
     interface IntrinsicElements {
+        "belo-box": BeloBox;
         "belo-button": BeloButton;
         "belo-caption": BeloCaption;
         "belo-card": BeloCard;
+        "belo-flex": BeloFlex;
         "belo-header": BeloHeader;
         "belo-input": BeloInput;
         "belo-link": BeloLink;
@@ -175,9 +237,11 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "belo-box": LocalJSX.BeloBox & JSXBase.HTMLAttributes<HTMLBeloBoxElement>;
             "belo-button": LocalJSX.BeloButton & JSXBase.HTMLAttributes<HTMLBeloButtonElement>;
             "belo-caption": LocalJSX.BeloCaption & JSXBase.HTMLAttributes<HTMLBeloCaptionElement>;
             "belo-card": LocalJSX.BeloCard & JSXBase.HTMLAttributes<HTMLBeloCardElement>;
+            "belo-flex": LocalJSX.BeloFlex & JSXBase.HTMLAttributes<HTMLBeloFlexElement>;
             "belo-header": LocalJSX.BeloHeader & JSXBase.HTMLAttributes<HTMLBeloHeaderElement>;
             "belo-input": LocalJSX.BeloInput & JSXBase.HTMLAttributes<HTMLBeloInputElement>;
             "belo-link": LocalJSX.BeloLink & JSXBase.HTMLAttributes<HTMLBeloLinkElement>;
