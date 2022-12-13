@@ -7,12 +7,13 @@ import { Component, h, Prop } from '@stencil/core';
 })
 export class BeloStack {
   @Prop() orientation: 'row' | 'column' = 'column';
+  @Prop() gap: string = "0";
 
   render() {
     return (
-      <div class='stack' style={{ flexDirection: this.orientation }}>
+      <belo-box display='flex' fd={this.orientation} gap={this.gap}>
         <slot></slot>
-      </div>
+      </belo-box>        
     );
   }
 
