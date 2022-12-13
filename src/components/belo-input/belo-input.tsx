@@ -8,7 +8,7 @@ import { Component, Host, h, Prop } from '@stencil/core';
 export class BeloInput {
 
 @Prop({reflect : true})
-hint: 'true' | 'false';
+hint: boolean;
 
 @Prop({reflect: true})
 hinttext;
@@ -20,22 +20,21 @@ label;
 placeholder;
 
 @Prop({reflect:true})
-disabled;
+disabled: boolean;
 
 @Prop({reflect:true})
-required;
+required: boolean;
 
   render() {
     return (
       <Host>
-          <div class={this.disabled ? `full-input ${this.disabled}` : `full-input ${this.required}`}>
-            <input type='text' name='name' placeholder={this.placeholder} class={this.disabled ? `${this.disabled}-text ${this.disabled}` : `${this.required} ${this.required}-focused`}></input>
-            <label htmlfor='name' id='label' class={`${this.disabled}-tetx ${this.required}-text`}>{this.label}</label>
+          <div class={this.disabled ? `full-input disabled` : `full-input ${this.required ? `required` : ``}`}>
+            <input type='text' name='name' placeholder={this.placeholder} class={this.disabled ? `disabled-text disabled` : `${this.required ? `required` : ``} ${this.required ? `required` : ``}-focused`}></input>
+            <label htmlfor='name' id='label' class={this.disabled ? `disabled-text` : ``}>{this.label}</label>
           </div>
-          <p class={this.hint ? `hint-${this.hint} ${this.disabled}-text` :  `${this.disabled}-text`}>{this.hinttext}</p>
+          <p class={this.hint ? `hint-true ${this.disabled}-text` :  `${this.disabled}-text`}>{this.hint ? this.hinttext : ``}</p>
       </Host>
     );
   }
 
 }
-
