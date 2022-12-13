@@ -5,7 +5,7 @@ import { Component, h, Prop } from '@stencil/core';
   styleUrl: 'belo-callout.css',
 })
 export class BeloCallout {
-  @Prop() color: string = "black";
+  @Prop() icon: string = "bell";
 
   render() {
     return (
