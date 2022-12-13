@@ -4,6 +4,7 @@
  * populate the testing stories following the instructions below.
  */
 
+
 export default {
   // This creates a ‘Components’ folder and a subfolder with the MyComponent menu item
   // of in Storybook's side menu. Replace 'MyComponent' by the generic component name.
@@ -15,17 +16,14 @@ export default {
     image: {
       description: 'image url'
     },
-    location: {
-      description: 'infromation about the city, ex: Madrid, Spain'
+    header: {
+      description: 'header text information goes here'
     },
-    score: {
-      description: 'score out of 5'
+    content: {
+      description: 'the main content text goes here'
     },
-    price_per_night: {
-      description: 'indicates the price per nigh, ex, 10$'
-    },
-    total_price: {
-      description: 'the total price, ex, 200$'
+    footer: {
+      description: 'card footer text goes here'
     }
   }
 };
@@ -34,15 +32,8 @@ export default {
  * Now you can create a reusable template for your component that you 
  * can later on customize with different values for its attribute properties and events
  */
-const Template = (args) => `
-  <belo-card image="${args.image}" 
-    location="${args.location}"
-    details="${args.details}"
-    score="${args.score}"
-    price_per_night="${args.price_per_night}"
-    total_price="${args.total_price}"
-    ></belo-card>
-`;
+const Template = (args) => 
+`<belo-card header="${args.header}" content="${args.content}" footer="${args.footer}" image="${args.image}"></belo-card>`;
 
 /**
  * Now you can leverage the template above to generate multiple snapshots of your component
@@ -57,9 +48,7 @@ Card.args = {
   // Populate this object with key/value pairs, customizing the component atribute values or even its content. Eg:
   // content: 'Demo text',
   image: 'https://media.revistaad.es/photos/62c2be405044c23fff61d3ec/master/w_1600%2Cc_limit/The%2520Boot%2520-%2520New%2520Zealand.jpg',
-  location: 'Madrid,Spain',
-  details: 'Listing Details',
-  score: '4.87',
-  price_per_night: '$10',
-  total_price: '$200'
+  header: 'Header',
+  content: 'Content',
+  footer: 'Footer'
 };

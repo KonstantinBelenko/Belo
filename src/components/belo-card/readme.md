@@ -7,15 +7,33 @@
 
 ## Properties
 
-| Property          | Attribute         | Description | Type  | Default     |
-| ----------------- | ----------------- | ----------- | ----- | ----------- |
-| `details`         | `details`         |             | `any` | `undefined` |
-| `image`           | `image`           |             | `any` | `undefined` |
-| `location`        | `location`        |             | `any` | `undefined` |
-| `price_per_night` | `price_per_night` |             | `any` | `undefined` |
-| `score`           | `score`           |             | `any` | `undefined` |
-| `total_price`     | `total_price`     |             | `any` | `undefined` |
+| Property  | Attribute | Description | Type  | Default     |
+| --------- | --------- | ----------- | ----- | ----------- |
+| `content` | `content` |             | `any` | `undefined` |
+| `footer`  | `footer`  |             | `any` | `undefined` |
+| `header`  | `header`  |             | `any` | `undefined` |
+| `image`   | `image`   |             | `any` | `undefined` |
 
+
+## Dependencies
+
+### Depends on
+
+- [belo-box](../belo-box)
+- [belo-stack](../belo-stack)
+- [belo-header](../belo-header)
+- [belo-p](../belo-p)
+
+### Graph
+```mermaid
+graph TD;
+  belo-card --> belo-box
+  belo-card --> belo-stack
+  belo-card --> belo-header
+  belo-card --> belo-p
+  belo-stack --> belo-box
+  style belo-card fill:#f9f,stroke:#333,stroke-width:4px
+```
 
 ----------------------------------------------
 

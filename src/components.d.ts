@@ -35,12 +35,10 @@ export namespace Components {
         "align": 'left' | 'right' | 'center';
     }
     interface BeloCard {
-        "details": any;
+        "content": any;
+        "footer": any;
+        "header": any;
         "image": any;
-        "location": any;
-        "price_per_night": any;
-        "score": any;
-        "total_price": any;
     }
     interface BeloFlex {
         "alignContent": 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly' | 'stretch';
@@ -189,12 +187,10 @@ declare namespace LocalJSX {
         "align"?: 'left' | 'right' | 'center';
     }
     interface BeloCard {
-        "details"?: any;
+        "content"?: any;
+        "footer"?: any;
+        "header"?: any;
         "image"?: any;
-        "location"?: any;
-        "price_per_night"?: any;
-        "score"?: any;
-        "total_price"?: any;
     }
     interface BeloFlex {
         "alignContent"?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly' | 'stretch';
