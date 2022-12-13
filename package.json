@@ -19,6 +19,8 @@
     "@stencil/core": "^2.13.0",
     "emotion": "^11.0.0",
     "figma-tokens-convert": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "style-dictionary": "^3.7.1",
     "styled-components": "^5.3.6",
     "token-transformer": "^0.0.28"

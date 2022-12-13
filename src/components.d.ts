@@ -43,18 +43,24 @@ export namespace Components {
         "total_price": any;
     }
     interface BeloFlex {
+        "alignContent": 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly' | 'stretch';
+        "alignItems": 'flex-start' | 'flex-end' | 'center' | 'baseline' | 'stretch';
+        "direction": 'row' | 'column';
+        "gap": string;
+        "justifyContent": 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly';
+        "wrap": 'wrap' | 'nowrap';
     }
     interface BeloHeader {
         "align": 'left' | 'right' | 'center';
         "size": any;
     }
     interface BeloInput {
-        "disabled": any;
-        "hint": 'true' | 'false';
+        "disabled": boolean;
+        "hint": boolean;
         "hinttext": any;
         "label": any;
         "placeholder": any;
-        "required": any;
+        "required": boolean;
     }
     interface BeloLink {
         "link": any;
@@ -63,8 +69,8 @@ export namespace Components {
         "align": 'left' | 'right' | 'center';
     }
     interface BeloStack {
+        "direction": 'row' | 'column';
         "gap": string;
-        "orientation": 'row' | 'column';
     }
     interface BeloTextArea {
         "disabled": any;
@@ -191,18 +197,24 @@ declare namespace LocalJSX {
         "total_price"?: any;
     }
     interface BeloFlex {
+        "alignContent"?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly' | 'stretch';
+        "alignItems"?: 'flex-start' | 'flex-end' | 'center' | 'baseline' | 'stretch';
+        "direction"?: 'row' | 'column';
+        "gap"?: string;
+        "justifyContent"?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly';
+        "wrap"?: 'wrap' | 'nowrap';
     }
     interface BeloHeader {
         "align"?: 'left' | 'right' | 'center';
         "size"?: any;
     }
     interface BeloInput {
-        "disabled"?: any;
-        "hint"?: 'true' | 'false';
+        "disabled"?: boolean;
+        "hint"?: boolean;
         "hinttext"?: any;
         "label"?: any;
         "placeholder"?: any;
-        "required"?: any;
+        "required"?: boolean;
     }
     interface BeloLink {
         "link"?: any;
@@ -211,8 +223,8 @@ declare namespace LocalJSX {
         "align"?: 'left' | 'right' | 'center';
     }
     interface BeloStack {
+        "direction"?: 'row' | 'column';
         "gap"?: string;
-        "orientation"?: 'row' | 'column';
     }
     interface BeloTextArea {
         "disabled"?: any;
