@@ -73,7 +73,7 @@ export namespace Components {
         "gap": string;
     }
     interface BeloTextArea {
-        "disabled": any;
+        "disabled": boolean;
         "maxlength": any;
         "placeholder": any;
     }
@@ -227,7 +227,7 @@ declare namespace LocalJSX {
         "gap"?: string;
     }
     interface BeloTextArea {
-        "disabled"?: any;
+        "disabled"?: boolean;
         "maxlength"?: any;
         "placeholder"?: any;
     }

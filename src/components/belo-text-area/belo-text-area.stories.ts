@@ -20,8 +20,9 @@ export default {
     },
 
     disabled: {
-      options: ['disabled', 'none'],
-      control: {type: 'radio'},
+      options: [true, false],
+      controls: {type: 'radio'},
+      dafaultValue: false,
       description: 'makes the text area disabled, is an optional argument'
     }
   }
@@ -48,7 +49,8 @@ TextAreaDefault.args = {
   // Populate this object with key/value pairs, customizing the component atribute values or even its content. Eg:
   // content: 'Demo text',
   maxlength: '500',
-  placeholder: 'Placeholder text'
+  placeholder: 'Placeholder text',
+  disabled: false
 
 };
 
@@ -58,5 +60,5 @@ TextAreaDisabled.args = {
   // content: 'Demo text',
   maxlength: '500',
   placeholder: 'Placeholder text',
-  disabled: 'disabled'
+  disabled: true
 };
