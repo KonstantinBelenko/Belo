@@ -21,6 +21,10 @@ export namespace Components {
         "h": string;
         "justifyContent": string;
         "m": string;
+        "maxH": string;
+        "maxW": string;
+        "minH": string;
+        "minW": string;
         "p": string;
         "rounded": string;
         "shadow": string;
@@ -30,6 +34,9 @@ export namespace Components {
         "disabled": boolean;
         "pill": boolean;
         "variant": string;
+    }
+    interface BeloCallout {
+        "color": string;
     }
     interface BeloCaption {
         "align": 'left' | 'right' | 'center';
@@ -43,6 +50,12 @@ export namespace Components {
         "total_price": any;
     }
     interface BeloFlex {
+        "alignContent": 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly' | 'stretch';
+        "alignItems": 'flex-start' | 'flex-end' | 'center' | 'baseline' | 'stretch';
+        "direction": 'row' | 'column';
+        "gap": string;
+        "justifyContent": 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly';
+        "wrap": 'wrap' | 'nowrap';
         "alignContent": 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly' | 'stretch';
         "alignItems": 'flex-start' | 'flex-end' | 'center' | 'baseline' | 'stretch';
         "direction": 'row' | 'column';
@@ -70,7 +83,13 @@ export namespace Components {
     }
     interface BeloStack {
         "direction": 'row' | 'column';
+        "direction": 'row' | 'column';
         "gap": string;
+    }
+    interface BeloText {
+        "color": string;
+        "size": string;
+        "weight": string;
     }
     interface BeloTextArea {
         "disabled": any;
@@ -90,6 +109,12 @@ declare global {
     var HTMLBeloButtonElement: {
         prototype: HTMLBeloButtonElement;
         new (): HTMLBeloButtonElement;
+    };
+    interface HTMLBeloCalloutElement extends Components.BeloCallout, HTMLStencilElement {
+    }
+    var HTMLBeloCalloutElement: {
+        prototype: HTMLBeloCalloutElement;
+        new (): HTMLBeloCalloutElement;
     };
     interface HTMLBeloCaptionElement extends Components.BeloCaption, HTMLStencilElement {
     }
@@ -139,6 +164,12 @@ declare global {
         prototype: HTMLBeloStackElement;
         new (): HTMLBeloStackElement;
     };
+    interface HTMLBeloTextElement extends Components.BeloText, HTMLStencilElement {
+    }
+    var HTMLBeloTextElement: {
+        prototype: HTMLBeloTextElement;
+        new (): HTMLBeloTextElement;
+    };
     interface HTMLBeloTextAreaElement extends Components.BeloTextArea, HTMLStencilElement {
     }
     var HTMLBeloTextAreaElement: {
@@ -148,6 +179,7 @@ declare global {
     interface HTMLElementTagNameMap {
         "belo-box": HTMLBeloBoxElement;
         "belo-button": HTMLBeloButtonElement;
+        "belo-callout": HTMLBeloCalloutElement;
         "belo-caption": HTMLBeloCaptionElement;
         "belo-card": HTMLBeloCardElement;
         "belo-flex": HTMLBeloFlexElement;
@@ -156,6 +188,7 @@ declare global {
         "belo-link": HTMLBeloLinkElement;
         "belo-p": HTMLBeloPElement;
         "belo-stack": HTMLBeloStackElement;
+        "belo-text": HTMLBeloTextElement;
         "belo-text-area": HTMLBeloTextAreaElement;
     }
 }
@@ -175,6 +208,10 @@ declare namespace LocalJSX {
         "h"?: string;
         "justifyContent"?: string;
         "m"?: string;
+        "maxH"?: string;
+        "maxW"?: string;
+        "minH"?: string;
+        "minW"?: string;
         "p"?: string;
         "rounded"?: string;
         "shadow"?: string;
@@ -184,6 +221,9 @@ declare namespace LocalJSX {
         "disabled"?: boolean;
         "pill"?: boolean;
         "variant"?: string;
+    }
+    interface BeloCallout {
+        "color"?: string;
     }
     interface BeloCaption {
         "align"?: 'left' | 'right' | 'center';
@@ -197,6 +237,12 @@ declare namespace LocalJSX {
         "total_price"?: any;
     }
     interface BeloFlex {
+        "alignContent"?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly' | 'stretch';
+        "alignItems"?: 'flex-start' | 'flex-end' | 'center' | 'baseline' | 'stretch';
+        "direction"?: 'row' | 'column';
+        "gap"?: string;
+        "justifyContent"?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly';
+        "wrap"?: 'wrap' | 'nowrap';
         "alignContent"?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly' | 'stretch';
         "alignItems"?: 'flex-start' | 'flex-end' | 'center' | 'baseline' | 'stretch';
         "direction"?: 'row' | 'column';
@@ -224,7 +270,13 @@ declare namespace LocalJSX {
     }
     interface BeloStack {
         "direction"?: 'row' | 'column';
+        "direction"?: 'row' | 'column';
         "gap"?: string;
+    }
+    interface BeloText {
+        "color"?: string;
+        "size"?: string;
+        "weight"?: string;
     }
     interface BeloTextArea {
         "disabled"?: any;
@@ -234,6 +286,7 @@ declare namespace LocalJSX {
     interface IntrinsicElements {
         "belo-box": BeloBox;
         "belo-button": BeloButton;
+        "belo-callout": BeloCallout;
         "belo-caption": BeloCaption;
         "belo-card": BeloCard;
         "belo-flex": BeloFlex;
@@ -242,6 +295,7 @@ declare namespace LocalJSX {
         "belo-link": BeloLink;
         "belo-p": BeloP;
         "belo-stack": BeloStack;
+        "belo-text": BeloText;
         "belo-text-area": BeloTextArea;
     }
 }
@@ -251,6 +305,7 @@ declare module "@stencil/core" {
         interface IntrinsicElements {
             "belo-box": LocalJSX.BeloBox & JSXBase.HTMLAttributes<HTMLBeloBoxElement>;
             "belo-button": LocalJSX.BeloButton & JSXBase.HTMLAttributes<HTMLBeloButtonElement>;
+            "belo-callout": LocalJSX.BeloCallout & JSXBase.HTMLAttributes<HTMLBeloCalloutElement>;
             "belo-caption": LocalJSX.BeloCaption & JSXBase.HTMLAttributes<HTMLBeloCaptionElement>;
             "belo-card": LocalJSX.BeloCard & JSXBase.HTMLAttributes<HTMLBeloCardElement>;
             "belo-flex": LocalJSX.BeloFlex & JSXBase.HTMLAttributes<HTMLBeloFlexElement>;
@@ -259,6 +314,7 @@ declare module "@stencil/core" {
             "belo-link": LocalJSX.BeloLink & JSXBase.HTMLAttributes<HTMLBeloLinkElement>;
             "belo-p": LocalJSX.BeloP & JSXBase.HTMLAttributes<HTMLBeloPElement>;
             "belo-stack": LocalJSX.BeloStack & JSXBase.HTMLAttributes<HTMLBeloStackElement>;
+            "belo-text": LocalJSX.BeloText & JSXBase.HTMLAttributes<HTMLBeloTextElement>;
             "belo-text-area": LocalJSX.BeloTextArea & JSXBase.HTMLAttributes<HTMLBeloTextAreaElement>;
         }
     }
