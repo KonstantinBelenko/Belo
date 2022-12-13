@@ -6,12 +6,12 @@ import { Component, h, Prop } from '@stencil/core';
   shadow: true,
 })
 export class BeloStack {
-  @Prop() orientation: 'row' | 'column' = 'column';
+  @Prop() direction: 'row' | 'column' = 'column';
   @Prop() gap: string = "0";
 
   render() {
     return (
-      <belo-box display='flex' fd={this.orientation} gap={this.gap}>
+      <belo-box display='flex' fd={this.direction} gap={this.gap}>
         <slot></slot>
       </belo-box>        
     );
