@@ -16,7 +16,15 @@ export class BeloBox {
   @Prop() w: string = "auto";
   @Prop() h: string = "auto";
   @Prop() m: string = "0";
+  @Prop() mt: string = "0";
+  @Prop() ml: string = "0";
+  @Prop() mr: string = "0";
+  @Prop() mb: string = "0";
   @Prop() p: string = "0";
+  @Prop() pt: string = "0";
+  @Prop() pb: string = "0";
+  @Prop() pl: string = "0";
+  @Prop() pr: string = "0";
   @Prop() bg: string = "#FFFFFF";
   @Prop() shadow: string = "";
   @Prop() rounded: string = "0";
@@ -39,7 +47,15 @@ export class BeloBox {
         width: this.w,
         height: this.h,
         margin: this.m,
+        marginTop: this.mt,
+        marginLeft: this.ml,
+        marginRight: this.mr,
+        marginBottom: this.mb,
         padding: this.p,
+        paddingTop: this.pt,
+        paddingBottom: this.pb,
+        paddingLeft: this.pl,
+        paddingRight: this.pr,
         alignItems: this.alignItems,
         justifyContent: this.justifyContent,
         alignContent: this.alignContent,
@@ -55,7 +71,7 @@ export class BeloBox {
         minWidth: this.minW,
         minHeight: this.minH,
       }}>
-        <slot></slot>
+        <slot />
       </div>
     );
   }

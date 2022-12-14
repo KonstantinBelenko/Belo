@@ -26,9 +26,17 @@ export namespace Components {
         "m": string;
         "maxH": string;
         "maxW": string;
+        "mb": string;
         "minH": string;
         "minW": string;
+        "ml": string;
+        "mr": string;
+        "mt": string;
         "p": string;
+        "pb": string;
+        "pl": string;
+        "pr": string;
+        "pt": string;
         "rounded": string;
         "shadow": string;
         "w": string;
@@ -39,7 +47,7 @@ export namespace Components {
         "variant": string;
     }
     interface BeloCallout {
-        "color": string;
+        "icon": string;
     }
     interface BeloCaption {
         "align": 'left' | 'right' | 'center';
@@ -79,6 +87,16 @@ export namespace Components {
     interface BeloStack {
         "direction": 'row' | 'column';
         "gap": string;
+    }
+    interface BeloStorybookColorBox {
+        "border": boolean;
+        "borderColor": string;
+        "color": string;
+        "gradientColor": string;
+        "headingColor": string;
+        "subtitle": string;
+        "targetColor": string;
+        "title": string;
     }
     interface BeloText {
         "color": string;
@@ -164,6 +182,12 @@ declare global {
         prototype: HTMLBeloStackElement;
         new (): HTMLBeloStackElement;
     };
+    interface HTMLBeloStorybookColorBoxElement extends Components.BeloStorybookColorBox, HTMLStencilElement {
+    }
+    var HTMLBeloStorybookColorBoxElement: {
+        prototype: HTMLBeloStorybookColorBoxElement;
+        new (): HTMLBeloStorybookColorBoxElement;
+    };
     interface HTMLBeloTextElement extends Components.BeloText, HTMLStencilElement {
     }
     var HTMLBeloTextElement: {
@@ -189,6 +213,7 @@ declare global {
         "belo-link": HTMLBeloLinkElement;
         "belo-p": HTMLBeloPElement;
         "belo-stack": HTMLBeloStackElement;
+        "belo-storybook-color-box": HTMLBeloStorybookColorBoxElement;
         "belo-text": HTMLBeloTextElement;
         "belo-text-area": HTMLBeloTextAreaElement;
     }
@@ -214,9 +239,17 @@ declare namespace LocalJSX {
         "m"?: string;
         "maxH"?: string;
         "maxW"?: string;
+        "mb"?: string;
         "minH"?: string;
         "minW"?: string;
+        "ml"?: string;
+        "mr"?: string;
+        "mt"?: string;
         "p"?: string;
+        "pb"?: string;
+        "pl"?: string;
+        "pr"?: string;
+        "pt"?: string;
         "rounded"?: string;
         "shadow"?: string;
         "w"?: string;
@@ -227,7 +260,7 @@ declare namespace LocalJSX {
         "variant"?: string;
     }
     interface BeloCallout {
-        "color"?: string;
+        "icon"?: string;
     }
     interface BeloCaption {
         "align"?: 'left' | 'right' | 'center';
@@ -268,6 +301,16 @@ declare namespace LocalJSX {
         "direction"?: 'row' | 'column';
         "gap"?: string;
     }
+    interface BeloStorybookColorBox {
+        "border"?: boolean;
+        "borderColor"?: string;
+        "color"?: string;
+        "gradientColor"?: string;
+        "headingColor"?: string;
+        "subtitle"?: string;
+        "targetColor"?: string;
+        "title"?: string;
+    }
     interface BeloText {
         "color"?: string;
         "size"?: string;
@@ -291,6 +334,7 @@ declare namespace LocalJSX {
         "belo-link": BeloLink;
         "belo-p": BeloP;
         "belo-stack": BeloStack;
+        "belo-storybook-color-box": BeloStorybookColorBox;
         "belo-text": BeloText;
         "belo-text-area": BeloTextArea;
     }
@@ -311,6 +355,7 @@ declare module "@stencil/core" {
             "belo-link": LocalJSX.BeloLink & JSXBase.HTMLAttributes<HTMLBeloLinkElement>;
             "belo-p": LocalJSX.BeloP & JSXBase.HTMLAttributes<HTMLBeloPElement>;
             "belo-stack": LocalJSX.BeloStack & JSXBase.HTMLAttributes<HTMLBeloStackElement>;
+            "belo-storybook-color-box": LocalJSX.BeloStorybookColorBox & JSXBase.HTMLAttributes<HTMLBeloStorybookColorBoxElement>;
             "belo-text": LocalJSX.BeloText & JSXBase.HTMLAttributes<HTMLBeloTextElement>;
             "belo-text-area": LocalJSX.BeloTextArea & JSXBase.HTMLAttributes<HTMLBeloTextAreaElement>;
         }

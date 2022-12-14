@@ -8,7 +8,7 @@ import Plugin from './assets/plugin.svg';
 import Repo from './assets/repo.svg';
 import StackAlt from './assets/stackalt.svg';
 
-<Meta title="Fundamentals/Introduction" />
+<Meta title="Fundamentals/Colors/Gradient" />
 
 <style>
   {`
@@ -22,6 +22,18 @@ import StackAlt from './assets/stackalt.svg';
       text-transform: uppercase;
       margin-bottom: 12px;
       margin-top: 40px;
+    }
+    
+    .lol {
+      background: linear-gradient(90deg, #ff385cff, #d70466ff);
+    }
+
+    .kek {
+      background: radial-gradient(#ff385cff, #d70466ff);
+    }
+
+    .washe {
+      background: linear-gradient(90deg, #aa018bff, #410aa8ff);
     }
 
     .link-list {
@@ -114,49 +126,59 @@ import StackAlt from './assets/stackalt.svg';
   `}
 </style>
 
-# Welcome to our Design System
+# Gradient Colors
 
-Storybook helps you build UI components in isolation from your app's business logic, data, and context.
-That makes it easy to develop hard-to-reach states. Save these UI states as **stories** to revisit during development, testing, or QA.
+<belo-stack gap="32px">
 
-Browse example stories now by navigating to them in the sidebar.
-View their code in the `stories` directory to learn how they work.
-We recommend building UIs with a [**component-driven**](https://componentdriven.org) process starting with atomic components and ending with pages.
+  <belo-header size="2">color-background-gradient</belo-header>  
+  <belo-flex gap="32px">
+    <belo-box w="12vw">
+    <div style={{width: "12vw", height: "70px", borderRadius: "6px", display: "flex"}} class="lol"></div>
+    
+    <belo-box mt="6px">
+      <belo-stack gap="6px">
+        <belo-text weight="800">default</belo-text>
 
-<div className="subheading">Learn</div>
+        <belo-flex justify-content="space-between">
+          <belo-text color="#B0B0B0" size="12px">#FF385CFF</belo-text>
+          <belo-text color="#222222" size="8px">45deg</belo-text>
+          <belo-text color="#B0B0B0" size="12px">#D70466FF</belo-text>
+        </belo-flex>
+      </belo-stack>
+    </belo-box>
+    </belo-box>
 
-<div className="link-list">
-  <a className="link-item" href="https://storybook.js.org/docs" target="_blank">
-    <img src={Repo} alt="repo" />
-    <span>
-      <strong>Storybook documentation</strong>
-      Configure, customize, and extend
-    </span>
-  </a>
-  <a className="link-item" href="https://storybook.js.org/tutorials/" target="_blank">
-    <img src={Direction} alt="direction" />
-    <span>
-      <strong>In-depth guides</strong>
-      Best practices from leading teams
-    </span>
-  </a>
-  <a className="link-item" href="https://github.com/storybookjs/storybook" target="_blank">
-    <img src={Code} alt="code" />
-    <span>
-      <strong>GitHub project</strong>
-      View the source and add issues
-    </span>
-  </a>
-  <a className="link-item" href="https://discord.gg/storybook" target="_blank">
-    <img src={Comments} alt="comments" />
-    <span>
-      <strong>Discord chat</strong>
-      Chat with maintainers and the community
-    </span>
-  </a>
-</div>
+    <belo-box w="12vw">
+    <div style={{width: "12vw", height: "70px", borderRadius: "6px", display: "flex"}} class="kek"></div>
+    
+    <belo-box mt="6px">
+      <belo-stack gap="6px">
+        <belo-text weight="800">radial</belo-text>
 
-<div className="tip-wrapper">
-  <span className="tip">Tip</span>Edit the Markdown in{' '}
-  <code>stories/Introduction.stories.mdx</code>
-</div>
+        <belo-flex justify-content="space-between">
+          <belo-text color="#B0B0B0" size="12px">#FF385CFF</belo-text>
+          <belo-text color="#222222" size="8px">radial</belo-text>
+          <belo-text color="#B0B0B0" size="12px">#D70466FF</belo-text>
+        </belo-flex>
+      </belo-stack>
+    </belo-box>
+  </belo-box>
+
+  <belo-box w="12vw">
+    <div style={{width: "12vw", height: "70px", borderRadius: "6px", display: "flex"}} class="washe"></div>
+    
+    <belo-box mt="6px">
+      <belo-stack gap="6px">
+        <belo-text weight="800">periwinkle</belo-text>
+
+        <belo-flex justify-content="space-between">
+          <belo-text color="#B0B0B0" size="12px">#AA018bFF</belo-text>
+          <belo-text color="#222222" size="8px">45deg</belo-text>
+          <belo-text color="#B0B0B0" size="12px">#410AA8FF</belo-text>
+        </belo-flex>
+      </belo-stack>
+    </belo-box>
+  </belo-box>
+  </belo-flex>
+
+</belo-stack>

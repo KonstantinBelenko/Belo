@@ -18,6 +18,7 @@
 ### Used by
 
  - [belo-card](../belo-card)
+ - [belo-storybook-color-box](../belo-storybook-color-box)
 
 ### Depends on
 
@@ -28,6 +29,7 @@
 graph TD;
   belo-stack --> belo-box
   belo-card --> belo-stack
+  belo-storybook-color-box --> belo-stack
   style belo-stack fill:#f9f,stroke:#333,stroke-width:4px
 ```
 
