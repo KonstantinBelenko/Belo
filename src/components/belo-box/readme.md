@@ -35,6 +35,7 @@
 
  - [belo-card](../belo-card)
  - [belo-flex](../belo-flex)
+ - [belo-list-item](../belo-list-item)
  - [belo-stack](../belo-stack)
 
 ### Graph
@@ -42,6 +43,7 @@
 graph TD;
   belo-card --> belo-box
   belo-flex --> belo-box
+  belo-list-item --> belo-box
   belo-stack --> belo-box
   style belo-box fill:#f9f,stroke:#333,stroke-width:4px
 ```
