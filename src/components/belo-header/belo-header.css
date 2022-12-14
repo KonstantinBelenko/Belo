@@ -9,44 +9,44 @@
 
 
 * {
-  font-family: var(--belo-font-family-font-family-text-font-family);
+  font-family: var(--belo-font-family-font-family-text-fontfamily);
 }
 
 h1 {
-  font-size: calc(var( --belo-font-heading-h1-font-size) * 1px);
-  font-weight: var(--belo-font-heading-h1-font-weight);
-  line-height: calc(var(--belo-font-heading-h1-line-height) * 1px);
+  font-size: var(--belo-font-heading-h1-fontsize);
+  font-weight: var(--belo-font-heading-h1-fontweight);
+  line-height: var(--belo-font-heading-h1-lineheight);
 
 
 }
 
 h2 {
-  font-size: calc(var( --belo-font-heading-h2-font-size) * 1px);
-  font-weight: var(--belo-font-heading-h2-font-weight);
-  line-height: calc(var(--belo-font-heading-h2-line-height) * 1px);
+  font-size: var( --belo-font-heading-h2-fontsize);
+  font-weight: var(--belo-font-heading-h2-fontweight);
+  line-height: var(--belo-font-heading-h2-lineheight);
 
 } 
 
  h3 {
-  font-size: calc(var( --belo-font-heading-h3-font-size) * 1px);
-  font-weight: var(--belo-font-heading-h3-font-weight);
-  line-height: calc(var(--belo-font-heading-h3-line-height) * 1px);
+  font-size: var( --belo-font-heading-h3-fontsize);
+  font-weight: var(--belo-font-heading-h3-fontweight);
+  line-height: var(--belo-font-heading-h3-lineheight);
 
 
 }
 
 h4 {
-  font-size: calc(var( --belo-font-heading-h4-font-size) * 1px);
-  font-weight: var(--belo-font-heading-h4-font-weight);
-  line-height: calc(var(--belo-font-heading-h4-line-height) * 1px);
+  font-size: var( --belo-font-heading-h4-fontsize);
+  font-weight: var(--belo-font-heading-h4-fontweight);
+  line-height: var(--belo-font-heading-h4-lineheight) ;
 
 
 }
 
 h5 {
-  font-size: calc(var( --belo-font-heading-h5-font-size) * 1px);
-  font-weight: var(--belo-font-heading-h5-font-weight);
-  line-height: calc(var(--belo-font-heading-h5-line-height) * 1px);
+  font-size: var( --belo-font-heading-h5-fontsize);
+  font-weight: var(--belo-font-heading-h5-fontweight);
+  line-height: var(--belo-font-heading-h5-lineheight);
 
 
 }

@@ -6,10 +6,10 @@
 }
 
 a, a:hover, a:visited {
-  font-size: calc(var(--belo-font-family-font-family-text-font-size) * 1px);
-  font-family: var(--belo-font-family-font-family-text-font-family);
+  font-size: var(--belo-font-family-font-family-text-fontsize);
+  font-family: var(--belo-font-family-font-family-text-fontfamily);
   color: var(--belo-color-text-color-text);
-  line-height: calc(var(--belo-font-family-font-family-text-line-heigh) * 1px);
+  line-height: var(--belo-font-family-font-family-text-lineheight);
   text-decoration: none;
   border-bottom: 2px solid var(--belo-color-text-color-text);
 

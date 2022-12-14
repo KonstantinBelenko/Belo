@@ -30,7 +30,7 @@ required: boolean;
       <Host>
           <div class={this.disabled ? `full-input disabled` : `full-input ${this.required ? `required` : ``}`}>
             <input type='text' name='name' placeholder={this.placeholder} class={this.disabled ? `disabled-text disabled` : `${this.required ? `required` : ``} ${this.required ? `required` : ``}-focused`}></input>
-            <label htmlfor='name' id='label' class={this.disabled ? `disabled-text` : ``}>{this.label}</label>
+            <label htmlfor='name' id='label' class={this.disabled ? `disabled-text` : `${this.required ? `required-text` : ``}`}>{this.label}</label>
           </div>
           <p class={this.hint ? `hint-true ${this.disabled}-text` :  `${this.disabled}-text`}>{this.hint ? this.hinttext : ``}</p>
       </Host>

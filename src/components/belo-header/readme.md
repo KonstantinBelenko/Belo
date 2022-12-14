@@ -13,6 +13,19 @@
 | `size`   | `size`    |             | `any`                           | `undefined` |
 
 
+## Dependencies
+
+### Used by
+
+ - [belo-card](../belo-card)
+
+### Graph
+```mermaid
+graph TD;
+  belo-card --> belo-header
+  style belo-header fill:#f9f,stroke:#333,stroke-width:4px
+```
+
 ----------------------------------------------
 
 *Built with [StencilJS](https://stenciljs.com/)*

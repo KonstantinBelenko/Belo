@@ -15,6 +15,10 @@
 
 ## Dependencies
 
+### Used by
+
+ - [belo-card](../belo-card)
+
 ### Depends on
 
 - [belo-box](../belo-box)
@@ -23,6 +27,7 @@
 ```mermaid
 graph TD;
   belo-stack --> belo-box
+  belo-card --> belo-stack
   style belo-stack fill:#f9f,stroke:#333,stroke-width:4px
 ```
 

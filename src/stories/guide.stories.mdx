@@ -1,0 +1,23 @@
+import { Canvas, Meta, Story } from '@storybook/addon-docs';
+
+<Meta title="MDX/guide"/>
+
+
+# header
+## when creating a new Doc page fallow these steps:
+
+1) create the doc page in the src/stories folder with the .stories.mdx extension.
+2) copy paste these first lines into the file:
+
+`import { Canvas, Meta, Story } from '@storybook/addon-docs';`
+`<Meta title="SectionName/DocPageName"/>`
+
+
+3) if the section you wanna create the doc page for doesn't exist yest, you can cerate a new section by defining it as "SectionName" (whatever that might be).
+if the section already exists then just use the same section name in 'SectionName'
+4) the 'DocPageName' should be the same as the file name, for example if the mdx file is called:
+example.stories.mdx
+then the 'DocPageName' will be 'example'.
+
+yes, you can write in html here and also add styles, for more info on this look at the 'Introduction.stories.mdx' file in src/stories.
+Also yes, you can just use MDX to write up the whole thing. for that ceck the [MDX docs](https://kabartolo.github.io/chicago-docs-demo/docs/mdx-guide/writing/)

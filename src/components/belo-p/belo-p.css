@@ -2,13 +2,19 @@
 @import url('https://fonts.cdnfonts.com/css/circular-std?styles=17909,17910,17911,17912,17907,17908,17905,17906');
 :host {
   display: block;
-  font-family: var(--belo-font-family-font-family-text-font-family), 'sans-serif';
-  font-size: calc(var(--belo-font-paragraph-p-font-size) * 1px);
+  font-family: var(--belo-font-family-font-family-text-fontfamily);
+  font-size: var(--belo-font-size-font-size-40-fontsize);
   font-weight: var(--belo-font-paragraph-p-font-weight);
-  line-height: calc(var(--belo-font-paragraph-p-line-height) * 1px);
+  line-height: var(--belo-font-family-font-family-text-lineheight);
 }
 
 
 * {
-  font-family: var(--belo-font-family-font-family-text-font-family);
+  font-family: var(--belo-font-family-font-family-text-fontfamily);
+  font-size: var(--belo-font-size-font-size-40-fontsize);
+  font-weight: var(--belo-font-paragraph-p-font-weight);
+  line-height: var(--belo-font-family-font-family-text-lineheight);
+
+
+
 }
