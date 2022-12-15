@@ -14,17 +14,28 @@ export default {
   argTypes: {
     // This will create an `args.variant` binding for your component 
     image: {
-      description: 'image url'
+      description: 'image url',
+      defaultValue: 'https://media.revistaad.es/photos/62c2be405044c23fff61d3ec/master/w_1600%2Cc_limit/The%2520Boot%2520-%2520New%2520Zealand.jpg',
     },
-    header: {
-      description: 'header text information goes here'
+    alt: {
+      description: 'alt text',
+      defaultValue: 'Placeholder image',
     },
+
+    title: {
+      description: 'title text',
+      defaultValue: 'Example card title',
+    },
+
     content: {
-      description: 'the main content text goes here'
+      description: 'content text',
+      defaultValue: 'Content',
     },
+
     footer: {
-      description: 'card footer text goes here'
-    }
+      description: 'subtitle text',
+      defaultValue: 'Subtitle',
+    },
   }
 };
 
@@ -33,7 +44,7 @@ export default {
  * can later on customize with different values for its attribute properties and events
  */
 const Template = (args) => 
-`<belo-card header="${args.header}" content="${args.content}" footer="${args.footer}" image="${args.image}"></belo-card>`;
+`<belo-card title="${args.title}" content="${args.content}" footer="${args.footer}" image="${args.image}" alt="${args.alt}" />`;
 
 /**
  * Now you can leverage the template above to generate multiple snapshots of your component
@@ -48,7 +59,8 @@ Card.args = {
   // Populate this object with key/value pairs, customizing the component atribute values or even its content. Eg:
   // content: 'Demo text',
   image: 'https://media.revistaad.es/photos/62c2be405044c23fff61d3ec/master/w_1600%2Cc_limit/The%2520Boot%2520-%2520New%2520Zealand.jpg',
-  header: 'Header',
-  content: 'Content',
-  footer: 'Footer'
+  alt: 'Placeholder image',
+  title: 'Example card title',
+  content: 'This is an example card content',
+  footer: 'Footer content',
 };

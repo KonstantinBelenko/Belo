@@ -7,12 +7,13 @@
 
 ## Properties
 
-| Property  | Attribute | Description | Type  | Default     |
-| --------- | --------- | ----------- | ----- | ----------- |
-| `content` | `content` |             | `any` | `undefined` |
-| `footer`  | `footer`  |             | `any` | `undefined` |
-| `header`  | `header`  |             | `any` | `undefined` |
-| `image`   | `image`   |             | `any` | `undefined` |
+| Property  | Attribute | Description | Type     | Default                                                                                                                           |
+| --------- | --------- | ----------- | -------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| `alt`     | `alt`     |             | `string` | `"Placeholder image"`                                                                                                             |
+| `content` | `content` |             | `string` | `"Placeholder content"`                                                                                                           |
+| `footer`  | `footer`  |             | `string` | `"Footer content"`                                                                                                                |
+| `image`   | `image`   |             | `string` | `"https://media.revistaad.es/photos/62c2be405044c23fff61d3ec/master/w_1600%2Cc_limit/The%2520Boot%2520-%2520New%2520Zealand.jpg"` |
+| `title`   | `title`   |             | `string` | `"Placeholder title"`                                                                                                             |
 
 
 ## Dependencies
@@ -21,16 +22,12 @@
 
 - [belo-box](../belo-box)
 - [belo-stack](../belo-stack)
-- [belo-header](../belo-header)
-- [belo-p](../belo-p)
 
 ### Graph
 ```mermaid
 graph TD;
   belo-card --> belo-box
   belo-card --> belo-stack
-  belo-card --> belo-header
-  belo-card --> belo-p
   belo-stack --> belo-box
   style belo-card fill:#f9f,stroke:#333,stroke-width:4px
 ```

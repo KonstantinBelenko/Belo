@@ -4,21 +4,12 @@
  */
 
  export default {
-  title: 'Components/Callout',
+  title: 'Components/Box',
   argTypes: {
     text: {
       description: 'This is a text placeholder',
       defaultValue: 'Lower price. Your dates are $318 less than the avg. nightly rate of the last 60 days.',
     },
-
-    icon: {
-      description: 'Callout icon.',
-      control: {
-        type: 'select',
-      },
-      options: ['bell'],
-      defaultValue: "bell",
-    }
 
   }
 };
@@ -28,7 +19,7 @@
  * can later on customize with different values for its attribute properties and events
  */
 const Template = (args) => `
-  <belo-callout icon="${args.icon}">${args.text}</belo-callout>
+  <belo-box>${args.text}</belo-box>
 `;
 
 /**
@@ -38,8 +29,7 @@ const Template = (args) => `
  * IMPORTANT: Remember to export each template binding!
  * Learn more about how to set up controls at https://storybook.js.org/docs/web-components/essentials/controls
  */
-export const Callout = Template.bind({});
-Callout.args = {
+export const Box = Template.bind({});
+Box.args = {
   text: 'Lower price. Your dates are $318 less than the avg. nightly rate of the last 60 days.',
-  icon: "bell",
 };
