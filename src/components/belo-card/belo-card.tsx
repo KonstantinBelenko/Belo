@@ -21,7 +21,7 @@ export class BeloCard {
         <belo-stack gap='10px'>
           
           <belo-stack gap='2px'>
-            <h2 style={{marginBottom: "0px", fontWeight: "bold"}}>{this.title}</h2> 
+            <h4 style={{marginBottom: "0px", fontWeight: "bold"}}>{this.title}</h4> 
             <span style={{margin: "0px", padding: "0px", color: "#717171ff"}}>{this.content}</span>
           </belo-stack>
           
