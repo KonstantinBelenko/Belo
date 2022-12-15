@@ -6,6 +6,13 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface BeloAvatar {
+        "alt": string;
+        "badge": "online" | "offline";
+        "badgeCounter": number;
+        "image": string;
+        "size": "small" | "large";
+    }
     interface BeloBadge {
         "counter": any;
     }
@@ -112,6 +119,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLBeloAvatarElement extends Components.BeloAvatar, HTMLStencilElement {
+    }
+    var HTMLBeloAvatarElement: {
+        prototype: HTMLBeloAvatarElement;
+        new (): HTMLBeloAvatarElement;
+    };
     interface HTMLBeloBadgeElement extends Components.BeloBadge, HTMLStencilElement {
     }
     var HTMLBeloBadgeElement: {
@@ -203,6 +216,7 @@ declare global {
         new (): HTMLBeloTextAreaElement;
     };
     interface HTMLElementTagNameMap {
+        "belo-avatar": HTMLBeloAvatarElement;
         "belo-badge": HTMLBeloBadgeElement;
         "belo-box": HTMLBeloBoxElement;
         "belo-button": HTMLBeloButtonElement;
@@ -221,6 +235,13 @@ declare global {
     }
 }
 declare namespace LocalJSX {
+    interface BeloAvatar {
+        "alt"?: string;
+        "badge"?: "online" | "offline";
+        "badgeCounter"?: number;
+        "image"?: string;
+        "size"?: "small" | "large";
+    }
     interface BeloBadge {
         "counter"?: any;
     }
@@ -326,6 +347,7 @@ declare namespace LocalJSX {
         "placeholder"?: any;
     }
     interface IntrinsicElements {
+        "belo-avatar": BeloAvatar;
         "belo-badge": BeloBadge;
         "belo-box": BeloBox;
         "belo-button": BeloButton;
@@ -347,6 +369,7 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "belo-avatar": LocalJSX.BeloAvatar & JSXBase.HTMLAttributes<HTMLBeloAvatarElement>;
             "belo-badge": LocalJSX.BeloBadge & JSXBase.HTMLAttributes<HTMLBeloBadgeElement>;
             "belo-box": LocalJSX.BeloBox & JSXBase.HTMLAttributes<HTMLBeloBoxElement>;
             "belo-button": LocalJSX.BeloButton & JSXBase.HTMLAttributes<HTMLBeloButtonElement>;
