@@ -1,4 +1,5 @@
 import { defineCustomElements } from '../loader';
+import { themes } from '@storybook/theming';
 
 defineCustomElements();
 
