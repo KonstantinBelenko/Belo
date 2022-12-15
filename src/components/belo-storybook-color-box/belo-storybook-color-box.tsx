@@ -8,7 +8,7 @@ export class BeloStorybookColorBox {
   @Prop() targetColor: string = "";
   @Prop() gradientColor: string = "";
   @Prop() color: string = "#FFFFFF";
-  @Prop() title: string = "AA 3.51";
+  @Prop() boxTitle: string = "AA 3.51";
   @Prop() subtitle: string = "default";
   @Prop() border: boolean = false;
   @Prop() borderColor: string = "#EBEBEB";
@@ -19,7 +19,7 @@ export class BeloStorybookColorBox {
       <belo-box>
         {this.gradientColor}
         <belo-box border-color={this.border && this.borderColor } border-width={this.border ? "2px" : "0px"} bg={this.gradientColor ? this.gradientColor : this.targetColor} w="12vw" h="70px" rounded="6px" display="flex" justify-content="center" align-items="center">
-          <belo-text color={this.color} size="20px">{this.title}</belo-text>
+          <belo-text color={this.color} size="20px">{this.boxTitle}</belo-text>
         </belo-box>
     
       <belo-box mt="6px">

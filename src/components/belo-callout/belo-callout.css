@@ -1,3 +1,13 @@
+@import "../../design-tokens/css/_variables.css";
+@import url('https://fonts.cdnfonts.com/css/circular-std?styles=17909,17910,17911,17912,17907,17908,17905,17906');
+
 .callout {
   border-color: var(--belo-color-background-color-background-gray-100);
+}
+
+* {
+  font-family: var(--belo-font-family-font-family-text-fontfamily);
+  font-size: var(--belo-font-size-font-size-40-fontsize);
+  font-weight: var(--belo-font-paragraph-p-font-weight);
+  line-height: var(--belo-font-family-font-family-text-lineheight);
 }

@@ -4,7 +4,6 @@
  */
 
  export default {
-  // this creates a ‘Components’ folder and a 'Button' subfolder in Storybook's side menu
   title: 'Components/Callout',
   argTypes: {
     text: {
@@ -14,7 +13,10 @@
 
     icon: {
       description: 'Callout icon.',
-      options: ["bell"],
+      control: {
+        type: 'select',
+      },
+      options: ['bell'],
       defaultValue: "bell",
     }
 
@@ -36,8 +38,8 @@ const Template = (args) => `
  * IMPORTANT: Remember to export each template binding!
  * Learn more about how to set up controls at https://storybook.js.org/docs/web-components/essentials/controls
  */
-export const BeloButton = Template.bind({});
-BeloButton.args = {
+export const BeloCallout = Template.bind({});
+BeloCallout.args = {
   text: 'Lower price. Your dates are $318 less than the avg. nightly rate of the last 60 days.',
   icon: "bell",
 };

@@ -11,12 +11,12 @@
 | --------------- | ---------------- | ----------- | --------- | ------------------ |
 | `border`        | `border`         |             | `boolean` | `false`            |
 | `borderColor`   | `border-color`   |             | `string`  | `"#EBEBEB"`        |
+| `boxTitle`      | `box-title`      |             | `string`  | `"AA 3.51"`        |
 | `color`         | `color`          |             | `string`  | `"#FFFFFF"`        |
 | `gradientColor` | `gradient-color` |             | `string`  | `""`               |
 | `headingColor`  | `heading-color`  |             | `string`  | `this.targetColor` |
 | `subtitle`      | `subtitle`       |             | `string`  | `"default"`        |
 | `targetColor`   | `target-color`   |             | `string`  | `""`               |
-| `title`         | `title`          |             | `string`  | `"AA 3.51"`        |
 
 
 ## Dependencies

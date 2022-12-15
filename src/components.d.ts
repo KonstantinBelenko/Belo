@@ -91,14 +91,15 @@ export namespace Components {
     interface BeloStorybookColorBox {
         "border": boolean;
         "borderColor": string;
+        "boxTitle": string;
         "color": string;
         "gradientColor": string;
         "headingColor": string;
         "subtitle": string;
         "targetColor": string;
-        "title": string;
     }
     interface BeloText {
+        "align": string;
         "color": string;
         "size": string;
         "weight": string;
@@ -304,14 +305,15 @@ declare namespace LocalJSX {
     interface BeloStorybookColorBox {
         "border"?: boolean;
         "borderColor"?: string;
+        "boxTitle"?: string;
         "color"?: string;
         "gradientColor"?: string;
         "headingColor"?: string;
         "subtitle"?: string;
         "targetColor"?: string;
-        "title"?: string;
     }
     interface BeloText {
+        "align"?: string;
         "color"?: string;
         "size"?: string;
         "weight"?: string;

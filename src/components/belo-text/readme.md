@@ -9,6 +9,7 @@
 
 | Property | Attribute | Description | Type     | Default    |
 | -------- | --------- | ----------- | -------- | ---------- |
+| `align`  | `align`   |             | `string` | `"left"`   |
 | `color`  | `color`   |             | `string` | `"black"`  |
 | `size`   | `size`    |             | `string` | `"16px"`   |
 | `weight` | `weight`  |             | `string` | `"normal"` |
