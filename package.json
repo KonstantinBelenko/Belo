@@ -61,12 +61,21 @@
     "transform-tokens": "node ./src/design-tokens/config/transform-tokens.js",
     "convert": "node ./node_modules/figma-tokens-convert/convert.js ./src/design-tokens/json/design-tokens.tokens.json ./src/design-tokens/css/_variables.css belo",
     "build-storybook": "storybook build -o storybook-static",
-    "deploy": "npx chromatic --project-token=238821f43c70"
+    "deploy": "npx chromatic --project-token=238821f43c70",
+    "chromatic": "npx chromatic --project-token=238821f43c70"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/deeleman/design-system-boilerplate.git"
   },
-  "author": "Pablo Deeleman",
-  "license": "MIT"
+  "author": {
+    "name": "Pablo Deeleman"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deeleman/design-system-boilerplate/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/deeleman/design-system-boilerplate#readme",
+  "_id": "design-system-boilerplate@1.0.0"
 }
