@@ -16,10 +16,10 @@ export class BeloListItem {
   render() {
     return (
       <Host>
-        <belo-box>
+        <li>
           <belo-header size="2">{this.label}</belo-header>
           <belo-p>{this.description}</belo-p>
-        </belo-box>
+        </li>
       </Host>
     );
   }

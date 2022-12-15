@@ -66,6 +66,8 @@ export namespace Components {
     interface BeloLink {
         "link": any;
     }
+    interface BeloList {
+    }
     interface BeloListItem {
         "description": any;
         "label": any;
@@ -138,6 +140,12 @@ declare global {
         prototype: HTMLBeloLinkElement;
         new (): HTMLBeloLinkElement;
     };
+    interface HTMLBeloListElement extends Components.BeloList, HTMLStencilElement {
+    }
+    var HTMLBeloListElement: {
+        prototype: HTMLBeloListElement;
+        new (): HTMLBeloListElement;
+    };
     interface HTMLBeloListItemElement extends Components.BeloListItem, HTMLStencilElement {
     }
     var HTMLBeloListItemElement: {
@@ -172,6 +180,7 @@ declare global {
         "belo-header": HTMLBeloHeaderElement;
         "belo-input": HTMLBeloInputElement;
         "belo-link": HTMLBeloLinkElement;
+        "belo-list": HTMLBeloListElement;
         "belo-list-item": HTMLBeloListItemElement;
         "belo-p": HTMLBeloPElement;
         "belo-stack": HTMLBeloStackElement;
@@ -239,6 +248,8 @@ declare namespace LocalJSX {
     interface BeloLink {
         "link"?: any;
     }
+    interface BeloList {
+    }
     interface BeloListItem {
         "description"?: any;
         "label"?: any;
@@ -265,6 +276,7 @@ declare namespace LocalJSX {
         "belo-header": BeloHeader;
         "belo-input": BeloInput;
         "belo-link": BeloLink;
+        "belo-list": BeloList;
         "belo-list-item": BeloListItem;
         "belo-p": BeloP;
         "belo-stack": BeloStack;
@@ -284,6 +296,7 @@ declare module "@stencil/core" {
             "belo-header": LocalJSX.BeloHeader & JSXBase.HTMLAttributes<HTMLBeloHeaderElement>;
             "belo-input": LocalJSX.BeloInput & JSXBase.HTMLAttributes<HTMLBeloInputElement>;
             "belo-link": LocalJSX.BeloLink & JSXBase.HTMLAttributes<HTMLBeloLinkElement>;
+            "belo-list": LocalJSX.BeloList & JSXBase.HTMLAttributes<HTMLBeloListElement>;
             "belo-list-item": LocalJSX.BeloListItem & JSXBase.HTMLAttributes<HTMLBeloListItemElement>;
             "belo-p": LocalJSX.BeloP & JSXBase.HTMLAttributes<HTMLBeloPElement>;
             "belo-stack": LocalJSX.BeloStack & JSXBase.HTMLAttributes<HTMLBeloStackElement>;

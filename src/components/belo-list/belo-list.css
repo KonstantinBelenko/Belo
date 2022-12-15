@@ -1,0 +1,24 @@
+@import "../../design-tokens/css/_variables.css";
+@import url('https://fonts.cdnfonts.com/css/circular-std?styles=17909,17910,17911,17912,17907,17908,17905,17906');
+:host {
+  display: block;
+}
+
+ol {
+  counter-reset: item;
+  margin-left: 0;
+  padding-left: 0px;
+}
+li {
+  display: block;
+  margin-bottom: 0;
+  margin-left: 2em;
+  font-size: 32px;
+}
+li::before {
+  display: inline-block;
+  content: counter(item);
+  counter-increment: item;
+  width: 2em;
+  margin-left: -2em;
+}
