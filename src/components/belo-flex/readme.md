@@ -19,6 +19,10 @@
 
 ## Dependencies
 
+### Used by
+
+ - [belo-callout](../belo-callout)
+
 ### Depends on
 
 - [belo-box](../belo-box)
@@ -27,6 +31,7 @@
 ```mermaid
 graph TD;
   belo-flex --> belo-box
+  belo-callout --> belo-flex
   style belo-flex fill:#f9f,stroke:#333,stroke-width:4px
 ```
 

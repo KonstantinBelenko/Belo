@@ -8,7 +8,7 @@ import Plugin from './assets/plugin.svg';
 import Repo from './assets/repo.svg';
 import StackAlt from './assets/stackalt.svg';
 
-<Meta title="Fundamentals/Introduction" />
+<Meta title="Fundamentals/Colors/Border" />
 
 <style>
   {`
@@ -114,49 +114,20 @@ import StackAlt from './assets/stackalt.svg';
   `}
 </style>
 
-# Welcome to our Design System
+# Border Colors
 
-Storybook helps you build UI components in isolation from your app's business logic, data, and context.
-That makes it easy to develop hard-to-reach states. Save these UI states as **stories** to revisit during development, testing, or QA.
+<belo-stack gap="32px">
 
-Browse example stories now by navigating to them in the sidebar.
-View their code in the `stories` directory to learn how they work.
-We recommend building UIs with a [**component-driven**](https://componentdriven.org) process starting with atomic components and ending with pages.
+  <belo-header size="2">color-border</belo-header>  
+  <belo-flex gap="32px">
+    <belo-storybook-color-box target-color="#FFFFFF" heading-color="#DDDDDD" border-color="#DDDDDD" color="#000000" boxTitle="" subtitle="gray-100" border />
+    <belo-storybook-color-box target-color="#FFFFFF" heading-color="#B0B0B0" border-color="#B0B0B0" color="#000000" boxTitle="" subtitle="gray-200" border />
+    <belo-storybook-color-box target-color="#FFFFFF" heading-color="#222222" border-color="#222222" color="#000000" boxTitle="" subtitle="gray-400" border />
+  </belo-flex>
 
-<div className="subheading">Learn</div>
+  <belo-header size="2">color-border-error</belo-header>  
+  <belo-flex gap="32px">
+    <belo-storybook-color-box target-color="#FFFFFF" heading-color="#C13515" border-color="#C13515" color="#000000" boxTitle="" subtitle="default" border />
+  </belo-flex>
 
-<div className="link-list">
-  <a className="link-item" href="https://storybook.js.org/docs" target="_blank">
-    <img src={Repo} alt="repo" />
-    <span>
-      <strong>Storybook documentation</strong>
-      Configure, customize, and extend
-    </span>
-  </a>
-  <a className="link-item" href="https://storybook.js.org/tutorials/" target="_blank">
-    <img src={Direction} alt="direction" />
-    <span>
-      <strong>In-depth guides</strong>
-      Best practices from leading teams
-    </span>
-  </a>
-  <a className="link-item" href="https://github.com/storybookjs/storybook" target="_blank">
-    <img src={Code} alt="code" />
-    <span>
-      <strong>GitHub project</strong>
-      View the source and add issues
-    </span>
-  </a>
-  <a className="link-item" href="https://discord.gg/storybook" target="_blank">
-    <img src={Comments} alt="comments" />
-    <span>
-      <strong>Discord chat</strong>
-      Chat with maintainers and the community
-    </span>
-  </a>
-</div>
-
-<div className="tip-wrapper">
-  <span className="tip">Tip</span>Edit the Markdown in{' '}
-  <code>stories/Introduction.stories.mdx</code>
-</div>
+</belo-stack>

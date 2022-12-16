@@ -6,6 +6,13 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
+    interface BeloAvatar {
+        "alt": string;
+        "badge": "online" | "offline";
+        "badgeCounter": number;
+        "image": string;
+        "size": "small" | "large";
+    }
     interface BeloBadge {
         "counter": any;
     }
@@ -24,7 +31,19 @@ export namespace Components {
         "h": string;
         "justifyContent": string;
         "m": string;
+        "maxH": string;
+        "maxW": string;
+        "mb": string;
+        "minH": string;
+        "minW": string;
+        "ml": string;
+        "mr": string;
+        "mt": string;
         "p": string;
+        "pb": string;
+        "pl": string;
+        "pr": string;
+        "pt": string;
         "rounded": string;
         "shadow": string;
         "w": string;
@@ -34,14 +53,18 @@ export namespace Components {
         "pill": boolean;
         "variant": string;
     }
+    interface BeloCallout {
+        "icon": string;
+    }
     interface BeloCaption {
         "align": 'left' | 'right' | 'center';
     }
     interface BeloCard {
-        "content": any;
-        "footer": any;
-        "header": any;
-        "image": any;
+        "alt": string;
+        "content": string;
+        "footer": string;
+        "image": string;
+        "title": string;
     }
     interface BeloFlex {
         "alignContent": 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly' | 'stretch';
@@ -79,6 +102,22 @@ export namespace Components {
         "direction": 'row' | 'column';
         "gap": string;
     }
+    interface BeloStorybookColorBox {
+        "border": boolean;
+        "borderColor": string;
+        "boxTitle": string;
+        "color": string;
+        "gradientColor": string;
+        "headingColor": string;
+        "subtitle": string;
+        "targetColor": string;
+    }
+    interface BeloText {
+        "align": string;
+        "color": string;
+        "size": string;
+        "weight": string;
+    }
     interface BeloTextArea {
         "disabled": boolean;
         "maxlength": any;
@@ -86,6 +125,12 @@ export namespace Components {
     }
 }
 declare global {
+    interface HTMLBeloAvatarElement extends Components.BeloAvatar, HTMLStencilElement {
+    }
+    var HTMLBeloAvatarElement: {
+        prototype: HTMLBeloAvatarElement;
+        new (): HTMLBeloAvatarElement;
+    };
     interface HTMLBeloBadgeElement extends Components.BeloBadge, HTMLStencilElement {
     }
     var HTMLBeloBadgeElement: {
@@ -103,6 +148,12 @@ declare global {
     var HTMLBeloButtonElement: {
         prototype: HTMLBeloButtonElement;
         new (): HTMLBeloButtonElement;
+    };
+    interface HTMLBeloCalloutElement extends Components.BeloCallout, HTMLStencilElement {
+    }
+    var HTMLBeloCalloutElement: {
+        prototype: HTMLBeloCalloutElement;
+        new (): HTMLBeloCalloutElement;
     };
     interface HTMLBeloCaptionElement extends Components.BeloCaption, HTMLStencilElement {
     }
@@ -164,6 +215,18 @@ declare global {
         prototype: HTMLBeloStackElement;
         new (): HTMLBeloStackElement;
     };
+    interface HTMLBeloStorybookColorBoxElement extends Components.BeloStorybookColorBox, HTMLStencilElement {
+    }
+    var HTMLBeloStorybookColorBoxElement: {
+        prototype: HTMLBeloStorybookColorBoxElement;
+        new (): HTMLBeloStorybookColorBoxElement;
+    };
+    interface HTMLBeloTextElement extends Components.BeloText, HTMLStencilElement {
+    }
+    var HTMLBeloTextElement: {
+        prototype: HTMLBeloTextElement;
+        new (): HTMLBeloTextElement;
+    };
     interface HTMLBeloTextAreaElement extends Components.BeloTextArea, HTMLStencilElement {
     }
     var HTMLBeloTextAreaElement: {
@@ -171,9 +234,11 @@ declare global {
         new (): HTMLBeloTextAreaElement;
     };
     interface HTMLElementTagNameMap {
+        "belo-avatar": HTMLBeloAvatarElement;
         "belo-badge": HTMLBeloBadgeElement;
         "belo-box": HTMLBeloBoxElement;
         "belo-button": HTMLBeloButtonElement;
+        "belo-callout": HTMLBeloCalloutElement;
         "belo-caption": HTMLBeloCaptionElement;
         "belo-card": HTMLBeloCardElement;
         "belo-flex": HTMLBeloFlexElement;
@@ -184,10 +249,19 @@ declare global {
         "belo-list-item": HTMLBeloListItemElement;
         "belo-p": HTMLBeloPElement;
         "belo-stack": HTMLBeloStackElement;
+        "belo-storybook-color-box": HTMLBeloStorybookColorBoxElement;
+        "belo-text": HTMLBeloTextElement;
         "belo-text-area": HTMLBeloTextAreaElement;
     }
 }
 declare namespace LocalJSX {
+    interface BeloAvatar {
+        "alt"?: string;
+        "badge"?: "online" | "offline";
+        "badgeCounter"?: number;
+        "image"?: string;
+        "size"?: "small" | "large";
+    }
     interface BeloBadge {
         "counter"?: any;
     }
@@ -206,7 +280,19 @@ declare namespace LocalJSX {
         "h"?: string;
         "justifyContent"?: string;
         "m"?: string;
+        "maxH"?: string;
+        "maxW"?: string;
+        "mb"?: string;
+        "minH"?: string;
+        "minW"?: string;
+        "ml"?: string;
+        "mr"?: string;
+        "mt"?: string;
         "p"?: string;
+        "pb"?: string;
+        "pl"?: string;
+        "pr"?: string;
+        "pt"?: string;
         "rounded"?: string;
         "shadow"?: string;
         "w"?: string;
@@ -216,14 +302,18 @@ declare namespace LocalJSX {
         "pill"?: boolean;
         "variant"?: string;
     }
+    interface BeloCallout {
+        "icon"?: string;
+    }
     interface BeloCaption {
         "align"?: 'left' | 'right' | 'center';
     }
     interface BeloCard {
-        "content"?: any;
-        "footer"?: any;
-        "header"?: any;
-        "image"?: any;
+        "alt"?: string;
+        "content"?: string;
+        "footer"?: string;
+        "image"?: string;
+        "title"?: string;
     }
     interface BeloFlex {
         "alignContent"?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'space-evenly' | 'stretch';
@@ -261,15 +351,33 @@ declare namespace LocalJSX {
         "direction"?: 'row' | 'column';
         "gap"?: string;
     }
+    interface BeloStorybookColorBox {
+        "border"?: boolean;
+        "borderColor"?: string;
+        "boxTitle"?: string;
+        "color"?: string;
+        "gradientColor"?: string;
+        "headingColor"?: string;
+        "subtitle"?: string;
+        "targetColor"?: string;
+    }
+    interface BeloText {
+        "align"?: string;
+        "color"?: string;
+        "size"?: string;
+        "weight"?: string;
+    }
     interface BeloTextArea {
         "disabled"?: boolean;
         "maxlength"?: any;
         "placeholder"?: any;
     }
     interface IntrinsicElements {
+        "belo-avatar": BeloAvatar;
         "belo-badge": BeloBadge;
         "belo-box": BeloBox;
         "belo-button": BeloButton;
+        "belo-callout": BeloCallout;
         "belo-caption": BeloCaption;
         "belo-card": BeloCard;
         "belo-flex": BeloFlex;
@@ -280,6 +388,8 @@ declare namespace LocalJSX {
         "belo-list-item": BeloListItem;
         "belo-p": BeloP;
         "belo-stack": BeloStack;
+        "belo-storybook-color-box": BeloStorybookColorBox;
+        "belo-text": BeloText;
         "belo-text-area": BeloTextArea;
     }
 }
@@ -287,9 +397,11 @@ export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
+            "belo-avatar": LocalJSX.BeloAvatar & JSXBase.HTMLAttributes<HTMLBeloAvatarElement>;
             "belo-badge": LocalJSX.BeloBadge & JSXBase.HTMLAttributes<HTMLBeloBadgeElement>;
             "belo-box": LocalJSX.BeloBox & JSXBase.HTMLAttributes<HTMLBeloBoxElement>;
             "belo-button": LocalJSX.BeloButton & JSXBase.HTMLAttributes<HTMLBeloButtonElement>;
+            "belo-callout": LocalJSX.BeloCallout & JSXBase.HTMLAttributes<HTMLBeloCalloutElement>;
             "belo-caption": LocalJSX.BeloCaption & JSXBase.HTMLAttributes<HTMLBeloCaptionElement>;
             "belo-card": LocalJSX.BeloCard & JSXBase.HTMLAttributes<HTMLBeloCardElement>;
             "belo-flex": LocalJSX.BeloFlex & JSXBase.HTMLAttributes<HTMLBeloFlexElement>;
@@ -300,6 +412,8 @@ declare module "@stencil/core" {
             "belo-list-item": LocalJSX.BeloListItem & JSXBase.HTMLAttributes<HTMLBeloListItemElement>;
             "belo-p": LocalJSX.BeloP & JSXBase.HTMLAttributes<HTMLBeloPElement>;
             "belo-stack": LocalJSX.BeloStack & JSXBase.HTMLAttributes<HTMLBeloStackElement>;
+            "belo-storybook-color-box": LocalJSX.BeloStorybookColorBox & JSXBase.HTMLAttributes<HTMLBeloStorybookColorBoxElement>;
+            "belo-text": LocalJSX.BeloText & JSXBase.HTMLAttributes<HTMLBeloTextElement>;
             "belo-text-area": LocalJSX.BeloTextArea & JSXBase.HTMLAttributes<HTMLBeloTextAreaElement>;
         }
     }
